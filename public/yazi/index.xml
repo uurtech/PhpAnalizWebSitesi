@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Tue, 29 Aug 2017 18:41:01 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Aug 2017 22:27:45 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/yazi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laravel ile 2 Dakika Admin Paneli Kurmak</title>
+      <link>https://phpanaliz.com/yazi/laravel-ile-2-dakikada-admin-paneli-kurmak/</link>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/laravel-ile-2-dakikada-admin-paneli-kurmak/</guid>
+      <description>Bu kurulumu yapmanın ne kadar sürdüğüne baktığımda 1.56 dakika olduğunu gördüm. Müşteriniz eğer internet üzerinden satın aldığınız arayüzlerden birini beğenirse bir kaç saatte komple sağlam bir CMS&amp;rsquo;e sahip siteyi sadece giydirme yaparak yayına alabilirsiniz.
+Voyager&amp;rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşturulabiliyor, bu sayede yetenekleri sınırsız. Kullanıcı yetkilendirme işlemi bile panelden rahatlıkla yapılabiliyor ve sizin hiç bir şey ayarlamanıza gerek kalmıyor.
+İlk olarak sinir olacağınız kadar kolay bir kullanımı mevcut, bilgisayarınız laravel kullanımına uygun değilse, hızlıca kurulumlara başlayalım, İlk olarak, XAMPP, WAMP veya MAMP kurmalısınız, benim tavsiyem kesinlikle MAMP.</description>
+    </item>
     
     <item>
       <title>Seo Hakkında Bilmedikleriniz</title>

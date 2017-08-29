@@ -1,0 +1,33 @@
+[debug] [2017-08-29T20:03:41.723Z] ----------------------------------------------------------------------
+[debug] [2017-08-29T20:03:41.729Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-08-29T20:03:41.730Z] CLI Version:   3.9.2
+[debug] [2017-08-29T20:03:41.730Z] Platform:      darwin
+[debug] [2017-08-29T20:03:41.730Z] Node Version:  v6.9.1
+[debug] [2017-08-29T20:03:41.731Z] Time:          Tue Aug 29 2017 23:03:41 GMT+0300 (+03)
+[debug] [2017-08-29T20:03:41.731Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-29T20:03:41.766Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-29T20:03:41.766Z] > authorizing via signed-in user
+[debug] [2017-08-29T20:03:41.769Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-29T20:03:41.770Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/j0Bv7McZ0PAKHArRIumGguKhEftFtDU4_NR5_km45RU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 29 2017 23:03:41 GMT+0300 (+03)
+[debug] [2017-08-29T20:03:42.325Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T20:03:42.331Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/phpanaliz-6baf2  
+ Tue Aug 29 2017 23:03:42 GMT+0300 (+03)
+[debug] [2017-08-29T20:03:43.342Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T20:03:43.344Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/phpanaliz-6baf2/tokens  
+ Tue Aug 29 2017 23:03:43 GMT+0300 (+03)
+[debug] [2017-08-29T20:03:44.224Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'phpanaliz-6baf2'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-08-29T20:03:46.145Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/phpanaliz-6baf2/uploads/-Ksj_vXI7mFj4Ex5Nepe?fileCount=29&message=  
+ Tue Aug 29 2017 23:03:46 GMT+0300 (+03)
+[debug] [2017-08-29T20:03:48.832Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T20:03:48.833Z] [hosting] .tgz uploaded successfully, waiting for extraction

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://phpanaliz.com/yazi/laravel-ile-2-dakikada-admin-paneli-kurmak/</loc>
+    <lastmod>2017-08-29T22:27:45+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://phpanaliz.com/yazi/seo-hakkinda-bilmedikleriniz/</loc>
     <lastmod>2017-08-29T18:41:01+03:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://phpanaliz.com/</loc>
-    <lastmod>2017-08-29T18:41:01+03:00</lastmod>
+    <lastmod>2017-08-29T22:27:45+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,7 +46,7 @@
   
   <url>
     <loc>https://phpanaliz.com/yazi/</loc>
-    <lastmod>2017-08-29T18:41:01+03:00</lastmod>
+    <lastmod>2017-08-29T22:27:45+03:00</lastmod>
     <priority>0</priority>
   </url>
   
