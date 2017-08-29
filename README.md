@@ -1,0 +1,1 @@
+Mevcut web sitemin repo'su, Dropbox yerine burada tutmak daha mantıklı geldi
