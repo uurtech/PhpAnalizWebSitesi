@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://phpanaliz.com/yazi/seo-hakkinda-bilmedikleriniz/</loc>
+    <lastmod>2017-08-29T18:41:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/yazi/vhosts-script-kullanimi/</loc>
+    <lastmod>2017-08-28T23:14:26+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/sayfa/iletisim/</loc>
+    <lastmod>2017-08-28T23:06:59+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/etiketler/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/kategori/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/</loc>
+    <lastmod>2017-08-29T18:41:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/sayfa/</loc>
+    <lastmod>2017-08-28T23:06:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phpanaliz.com/yazi/</loc>
+    <lastmod>2017-08-29T18:41:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
