@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Tue, 29 Aug 2017 22:27:45 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Aug 2017 23:59:56 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/yazi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Angular Ile Hugo Search Ekleme</title>
+      <link>https://phpanaliz.com/yazi/angular-ile-hugo-search-ekleme/</link>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/angular-ile-hugo-search-ekleme/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Laravel ile 2 Dakika Admin Paneli Kurmak</title>
