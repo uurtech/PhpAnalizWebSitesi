@@ -7,18 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Tue, 29 Aug 2017 23:59:56 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Aug 2017 14:21:07 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Angular Ile Hugo Search Ekleme</title>
-      <link>https://phpanaliz.com/yazi/angular-ile-hugo-search-ekleme/</link>
+      <title>Arama</title>
+      <link>https://phpanaliz.com/sayfa/search/</link>
+      <pubDate>Wed, 30 Aug 2017 14:21:07 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/sayfa/search/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Jquery ile Hugo Search Ekleme</title>
+      <link>https://phpanaliz.com/yazi/jquery-ile-firebase-siteye-search-ekleme/</link>
       <pubDate>Tue, 29 Aug 2017 23:59:56 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/yazi/angular-ile-hugo-search-ekleme/</guid>
-      <description></description>
+      <guid>https://phpanaliz.com/yazi/jquery-ile-firebase-siteye-search-ekleme/</guid>
+      <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacmımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&amp;rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&amp;rsquo;a içeriklerimin gönderilmesi gerek.</description>
     </item>
     
     <item>

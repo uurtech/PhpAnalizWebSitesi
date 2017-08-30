@@ -3,19 +3,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Seo Hakkında Bilmedikleriniz &middot; Uğur KAZDAL</title>
-        <meta name="description" content="İlk olarak şununla başlıyorum, SEO uzmanlığı bir meslek vb değildir. Bu işi dünya da bile en iyi yaptığını iddia eden firmalar sizlerin üç ay sonra Google&rsquo;ın indexlerinizi silmenize yol açacaktır.
-SEO için Google&rsquo;ı telefonla bile aradık, adamlar diyor ki, arama motorunun nasıl çalıştığını kimseye söylemiyoruz. Bu nedenle Google şöyle çalışır böyle çalışır gibi şeylere pek kulak asmamak gerekiyor. Dikkat etmemiz gereken tek şey Google Web Master bloglarında paylaşılanlar, bunları madde madde inceleyelim;  Sitedeki bilgilerin doğru ve güvenilir olması  İçeriklerinizin kaynağının saçma sapan yerlere dayanmasından ziyade gerçek ve somut kaynaklara dayanması, Google içeriğinizi anladığında &#34;">
+        <title>Jquery ile Hugo Search Ekleme &middot; Uğur KAZDAL</title>
+        <meta name="description" content="Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacmımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&rsquo;a içeriklerimin gönderilmesi gerek.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.25.1" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Seo Hakkında Bilmedikleriniz">
-<meta property="og:description" content="İlk olarak şununla başlıyorum, SEO uzmanlığı bir meslek vb değildir. Bu işi dünya da bile en iyi yaptığını iddia eden firmalar sizlerin üç ay sonra Google&rsquo;ın indexlerinizi silmenize yol açacaktır.
-SEO için Google&rsquo;ı telefonla bile aradık, adamlar diyor ki, arama motorunun nasıl çalıştığını kimseye söylemiyoruz. Bu nedenle Google şöyle çalışır böyle çalışır gibi şeylere pek kulak asmamak gerekiyor. Dikkat etmemiz gereken tek şey Google Web Master bloglarında paylaşılanlar, bunları madde madde inceleyelim;  Sitedeki bilgilerin doğru ve güvenilir olması  İçeriklerinizin kaynağının saçma sapan yerlere dayanmasından ziyade gerçek ve somut kaynaklara dayanması, Google içeriğinizi anladığında &#34;">
+        <meta property="og:title" content="Jquery ile Hugo Search Ekleme">
+<meta property="og:description" content="Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacmımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&rsquo;a içeriklerimin gönderilmesi gerek.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://phpanaliz.com/yazi/seo-hakkinda-bilmedikleriniz/">
+<meta property="og:url" content="https://phpanaliz.com/yazi/jquery-ile-firebase-siteye-search-ekleme/">
         <link rel="stylesheet" href="https://phpanaliz.com/dist/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -108,7 +110,7 @@ ga('send', 'pageview');
 <div class="container">
     <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Seo Hakkında Bilmedikleriniz</h1>
+    <h1 class="post-title" itemprop="name headline">Jquery ile Hugo Search Ekleme</h1>
     
     <p class="post-date">
         <span>Yayın <time datetime="2017-08-29" itemprop="datePublished">29/08/2017</time></span>
@@ -123,73 +125,95 @@ ga('send', 'pageview');
 
         <div class="post-content clearfix" itemprop="articleBody">
     
-        <img class="post-featured-image" src="/images/seo-hakkinda-bilmedikleriniz.jpg">
-    
 
-    <p>İlk olarak şununla başlıyorum, SEO uzmanlığı bir meslek vb değildir. Bu işi dünya da bile en iyi yaptığını iddia eden firmalar sizlerin üç ay sonra Google&rsquo;ın indexlerinizi silmenize yol açacaktır.</p>
+    <p>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacmımız yok.</p>
 
-<p>SEO için Google&rsquo;ı telefonla bile aradık, adamlar diyor ki, arama motorunun nasıl çalıştığını kimseye söylemiyoruz. Bu nedenle Google şöyle çalışır böyle çalışır gibi şeylere pek kulak asmamak gerekiyor. Dikkat etmemiz gereken tek şey Google Web Master bloglarında paylaşılanlar, bunları madde madde inceleyelim; <br /></p>
+<p>Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?</p>
 
-<ul>
-<li>Sitedeki bilgilerin doğru ve güvenilir olması
-    <ul>
-        <li>İçeriklerinizin kaynağının saçma sapan yerlere dayanmasından ziyade gerçek ve somut kaynaklara dayanması, Google içeriğinizi anladığında "ne diyor la bu" dememesi.</li>
-    </ul>
-</li>
-<li>
-İçeriklerin niteliği ve detaylar
-<ul>
-<li>
-Yazıların üstün körü mü yazılmış ? Yoksa sitenin sahibinin veya yapısının sahip olduğu kurguya uygun şekilde detaylı ve bilgilendirici şekilde mi ? Bu Google'ın için çok önemli.
-</li>
-</ul>
-</li>
+<p>Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&rsquo;a içeriklerimin gönderilmesi gerek. O zaman aklıma direk search&rsquo;ü son kullancı tarafında bu XML dosyaları içerisinde yaptırabilirim yanıtı geliyor.</p>
 
-<li>
-Sitede belli bir kelimeyi öne çıkarmak için gereksiz bilgileri barındıran yazılar var mı ?
-<ul><li>Burada SEO'culara para bayılıp bayılmadığınız anlaşılıyor</li></ul>
-</li>
+<p>Bunun için temamdaki kütüphaneleri inceleyiyeyim,</p>
 
-<li>
-Gerçek dışı bilgiler, kelime veya yazım hatalarınız var mı ? Bu sitenizin kalitesini belirleyen ciddi unsurlardan
-</li>
-<li>
-Aynı kategorideki sayfalara nazaran kaliteli ek bilgi sunuyor mu?
-</li>
-<li>
-İçerikler SEO için mi yoksa siteye gelen kişiler için mi girilmiş.
-</li>
-<li>
-İçerik araştırılmış hissiyatı veriyor mu?
-</li>
-<li>
-Makaleniz bir kaç bakış açısına sahip mi?
-</li>
-<li>
-Bu siteyi ilgili konularda daha sonra hatırlar mısınız?
-</li>
-<li>
-Siteyi Bookmark'larmısınız (ki bookmarklanması Chrome tarafında yakalandığından ÇOOOOK ÖNEMLİ) veya E-posta ile paylaşır mısınız
-</li>
-<li>
-Yazı basılı bir dergiye çıkacak kadar kaliteli mi?
-</li>
-<li>
-Sayfa veya içerik şikayet veya karşı görüş yorumlara madur kalır mı?
-</li>
-</ul>
+<pre><code>    &lt;script src=&quot;https://phpanaliz.com/js/jquery-1.11.3.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://phpanaliz.com/js/jquery.fitvids.js&quot;&gt;&lt;/script&gt;
+</code></pre>
 
-<p>Son olarak, sayfanızın açılış süresi, bu çok önemli, web sayfanız mutlaka 1 saniye altında açılmalı, en geç 2 saniye ancak daha fazla değil, bakınız (mobilsihirbazi), 0.27 saniyede sayfa yükleme süresi bulunuyor.</p>
+<p>Yukarıda gördüğünüz gibi çoğu tema da olduğu gibi Jquery kullanılmış, o zaman hızlıca Jquery ile nasıl yapacağımıza bakalım.</p>
 
-<p>Bu maddeleri incelediğinizde, bunları Google nasıl yapıyor diyebilirsiniz. Google, Deep Learning ve yapay zeka ile, yazılarınızın kendi kategorisindeki basılı yayın organlarındaki örnekleri ile karşılaştırabileceği, kategorinizde popüler olan insanların siteniz ile ilgili Chrome&rsquo;a ekleme yapıp yapmadığı vb gibi şeylere ulaşabileceği bir gerçek.</p>
+<p>Siteyi yayınladığım kodların içerisinde her verinin bulunduğu bir XML dosyası buldum,</p>
 
-<p>Bu nedenlerle Google bu maddelere dikkat edilmesi gerektiğini söylüyor. Şunu da söyliyeyim, SEO firmaları sizlere içerik veya site analizi/iyileştirmeleri dışında bir çözüm sunuyorsa (backlink gibi) o kişilerden uzaklaşın, evet ilk üç ay siteniz tavan yapıyor ama sonrasında Google bir algoritma çalıştırmayla sitenizi yerle bir edebilir.</p>
+<pre><code>https://phpanaliz.com/index.xml
+</code></pre>
 
-<p>Bu konuda daha önce Türkiye&rsquo;deki haber siteleri ciddi dayak yedi Google&rsquo;dan. Siz içeriğinizi düzgün ve kaliteli tuttuğunuzda Google sizi her türlü ön plana çıkartıyor. Hilelerle uğraşmak yerine mutlaka içeriklerinizin kalitesine yönelin.</p>
+<p>O zaman bu dosya üzerinde arama yaptırmalıyım, ilk olarak footer&rsquo;a javascript kodlarımı ekliyorum, bu kodlar her seferinde çalışmasın sadece kelime aratılmışsa çalışsın diye de bir sorgu ekliyorum,</p>
 
-<p>Ek not, Google daha önce SSL barındıran sitelerin indexlenmesini hızlandıracağını bildirmişti, (<a href="https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html" target="_blank"><a href="https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html">https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html</a></a>)</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+    function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, &quot;\\$&amp;&quot;);
+    var regex = new RegExp(&quot;[?&amp;]&quot; + name + &quot;(=([^&amp;#]*)|&amp;|#|$)&quot;),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, &quot; &quot;));
+}
+var sonucSayac = 0;
+var string = getParameterByName(&quot;kelime&quot;);
+if(string !== null){
+    var result = new Array();
 
-<p>Yukarıda bahsettiğimiz konuya bir de Google açısından Türkçe olarak bakın =&gt; <a href="https://webmaster-tr.googleblog.com/" target="_blank"><a href="https://webmaster-tr.googleblog.com/">https://webmaster-tr.googleblog.com/</a></a></p>
+            var feed = &quot;/index.xml&quot;;
+                $.ajax(feed, {
+                accepts:{
+                    xml:&quot;application/rss+xml&quot;
+                },
+                dataType:&quot;xml&quot;,
+                success:function(data) {
+
+                    $(data).find(&quot;item&quot;).each(function () {
+                        var el = $(this);
+                            if(el.find(&quot;description&quot;).text().indexOf(string) &gt; -1){
+                            sonucSayac++;
+                            $(&quot;#sonuclar&quot;).append('&lt;li class=&quot;post-stub&quot; itemprop=&quot;blogPost&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/BlogPosting&quot;&gt;&lt;a href=&quot;'+el.find(&quot;link&quot;).text()+'&quot; itemprop=&quot;url&quot; title=&quot;Detaylar&quot;&gt;&lt;h4 class=&quot;post-stub-title&quot; itemprop=&quot;name&quot;&gt;'+el.find(&quot;title&quot;).text()+'&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;');    
+                        }
+                    });
+
+if(sonucSayac == 0){
+                $(&quot;#sonuclar&quot;).append('&lt;li class=&quot;post-stub&quot;&gt;Sonuç bulunamadı&lt;/li&gt;');
+            }
+                }   
+            });
+
+}
+
+
+        &lt;/script&gt;
+</code></pre>
+
+<p>Bununla birlikte bir de input&rsquo;a ihtiyaımız var, bu input&rsquo;u header&rsquo;da uygun gördüğüm bi yere ekliyorum, eklediğim arama formu şu şekilde</p>
+
+<pre><code>&lt;form id=&quot;search&quot; method=&quot;get&quot; action=&quot;/sayfa/search/&quot;&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;kelime&quot; id=&quot;kelime&quot; placeholder=&quot;Arama&quot;/&gt;
+                            &lt;/form&gt;
+</code></pre>
+
+<p>Sonrasında komut satırından yeni bir sayfa oluşturmalıyım,
+    hugo new sayfa/search.md</p>
+
+<p>Bu oluşturduğum sayfaya ise sadece ul ekliyorum,</p>
+
+<pre><code>---
+title: &quot;Arama&quot;
+date: 2017-08-30T14:21:07+03:00
+description: &quot;Arama Sayfası&quot;
+---
+
+&lt;ol class=&quot;post-list&quot; id=&quot;sonuclar&quot;&gt;
+
+&lt;/ol&gt;
+</code></pre>
+
+<p>ve artık tamamlandı. Hugo sitemin bir arama motoru var ! :)</p>
 
 </div>
 
@@ -200,16 +224,18 @@ Sayfa veya içerik şikayet veya karşı görüş yorumlara madur kalır mı?
             <span>İçerikte Öne Çıkanlar:</span>
             
             
-                <a href="/tags/seo/">seo</a>, 
+                <a href="/tags/search/">search</a>, 
             
-                <a href="/tags/internet/">internet</a>
+                <a href="/tags/hugo/">hugo</a>, 
+            
+                <a href="/tags/firebase/">firebase</a>
             
         </p>
     
 
     <div class="share">
         
-            <a class="icon-twitter" href="https://twitter.com/share?text=Seo%20Hakk%c4%b1nda%20Bilmedikleriniz&url=https%3a%2f%2fphpanaliz.com%2fyazi%2fseo-hakkinda-bilmedikleriniz%2f"
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jquery%20ile%20Hugo%20Search%20Ekleme&url=https%3a%2f%2fphpanaliz.com%2fyazi%2fjquery-ile-firebase-siteye-search-ekleme%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
@@ -217,7 +243,7 @@ Sayfa veya içerik şikayet veya karşı görüş yorumlara madur kalır mı?
         
 
         
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fphpanaliz.com%2fyazi%2fseo-hakkinda-bilmedikleriniz%2f"
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fphpanaliz.com%2fyazi%2fjquery-ile-firebase-siteye-search-ekleme%2f"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-facebook"></i>
                 <span class="hidden">Facebook</span>
@@ -225,7 +251,7 @@ Sayfa veya içerik şikayet veya karşı görüş yorumlara madur kalır mı?
         
 
         
-            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fphpanaliz.com%2fyazi%2fseo-hakkinda-bilmedikleriniz%2f"
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fphpanaliz.com%2fyazi%2fjquery-ile-firebase-siteye-search-ekleme%2f"
               onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
               <i class="fa fa-google-plus"></i>
                 <span class="hidden">Google+</span>
