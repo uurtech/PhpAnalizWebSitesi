@@ -6,7 +6,7 @@ tags: ["search","hugo","firebase"]
 slug: "jquery-ile-firebase-siteye-search-ekleme"
 ---
 
-Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacmımız yok. 
+Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok. 
 
 Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase'e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
 
