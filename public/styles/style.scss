@@ -229,7 +229,7 @@ table {
     padding: 40px 0 0;
     overflow: auto;
     text-align: center;
-    
+    text-transform: uppercase;
 }
 
 .site-title-wrapper {
@@ -242,7 +242,7 @@ table {
     font-size: 14px;
     font-weight: 600;
     margin: 0;
-    
+    text-transform: uppercase;
 
     a {
         float: left;
@@ -287,7 +287,7 @@ table {
     margin: 0 0 20px;
     padding: 0 0 20px;
     text-align: center;
-    
+    text-transform: uppercase;
 }
 
 .post-title,
@@ -296,7 +296,7 @@ table {
     font-weight: 700;
     margin: 15px 0;
     text-align: center;
-    
+    text-transform: uppercase;
 }
 
 .page-title { margin: 15px 40px; }
@@ -392,7 +392,7 @@ table {
     font-weight: 600;
     margin: 0 5px;
     padding: 5px 10px 6px;
-    
+    text-transform: uppercase;
 
     &:hover {
         background: $secondary;
@@ -443,7 +443,7 @@ table {
     font-size: 10px;
     margin: 7px 0 0;
     padding: 0 5px;
-    
+    text-transform: uppercase;
 }
 
 .post-stub-title {
@@ -506,7 +506,7 @@ table {
     font-size: 52px;
     font-weight: 700;
     text-align: center;
-    
+    text-transform: uppercase;
     vertical-align: middle;
 }
 
@@ -517,7 +517,7 @@ table {
     line-height: 1;
     margin: 25px 0 0;
     text-align: center;
-    
+    text-transform: uppercase;
 
     span {
         display: inline-block;
@@ -560,7 +560,7 @@ table {
     font-size: 14px;
     margin: 0;
     text-align: center;
-    
+    text-transform: uppercase;
 
     a {
         color: #656565;

@@ -97,13 +97,22 @@ ga('send', 'pageview');
 
 
 <div class="container">
-    <article class="post-container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-    <h1 class="post-title">Jquery ile Hugo Search Ekleme</h1>
+    <h1 class="post-title" itemprop="name headline">Jquery ile Hugo Search Ekleme</h1>
     
+    <p class="post-date">
+        <span><time datetime="2017-08-29" itemprop="datePublished">29/08/2017</time></span>
+        <span>Yazan : </span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://plus.google.com/114180123448645975351" itemprop="url" rel="author">Uğur KAZDAL</a>
+            </span>
+        </span>
+    </p>
 </header>
 
-        <div class="post-content clearfix">
+        <div class="post-content clearfix" itemprop="articleBody">
     
 
     <p>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.</p>
@@ -200,7 +209,7 @@ description: &quot;Arama Sayfası&quot;
         <footer class="post-footer clearfix">
     
         <p class="post-tags">
-            <span>Tagged:</span>
+            <span>Etiketler:</span>
             
             
                 <a href="/tags/search/">search</a>, 
@@ -239,6 +248,8 @@ description: &quot;Arama Sayfası&quot;
         
     </div>
 </footer>
+
+        
     </article>
 </div>
 
@@ -257,11 +268,7 @@ description: &quot;Arama Sayfası&quot;
                 </div>
 
                 <p class="footer-copyright">
-                    <span>&copy; 2017 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
-                </p>
-                <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
-                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                    <span>&copy; 2017 / <a href="/">Uğur KAZDAL</a></span>
                 </p>
             </div>
         </footer>
