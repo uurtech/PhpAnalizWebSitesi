@@ -1,0 +1,25 @@
+[debug] [2017-09-13T20:16:55.774Z] ----------------------------------------------------------------------
+[debug] [2017-09-13T20:16:55.779Z] Command:       /usr/local/Cellar/node/8.4.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-13T20:16:55.779Z] CLI Version:   3.10.1
+[debug] [2017-09-13T20:16:55.780Z] Platform:      darwin
+[debug] [2017-09-13T20:16:55.780Z] Node Version:  v8.4.0
+[debug] [2017-09-13T20:16:55.783Z] Time:          Wed Sep 13 2017 23:16:55 GMT+0300 (+03)
+[debug] [2017-09-13T20:16:55.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-13T20:16:55.816Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-13T20:16:55.816Z] > authorizing via signed-in user
+[debug] [2017-09-13T20:16:55.819Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/phpanaliz-6baf2  
+ Wed Sep 13 2017 23:16:55 GMT+0300 (+03)
+[debug] [2017-09-13T20:16:56.780Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T20:16:56.782Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/phpanaliz-6baf2/tokens  
+ Wed Sep 13 2017 23:16:56 GMT+0300 (+03)
+[debug] [2017-09-13T20:16:57.701Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'phpanaliz-6baf2'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-09-13T20:16:59.725Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/phpanaliz-6baf2/uploads/-KtwsnWlVXgVBs2l0hBc?fileCount=31&message=  
+ Wed Sep 13 2017 23:16:59 GMT+0300 (+03)
+[debug] [2017-09-13T20:17:03.027Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T20:17:03.027Z] [hosting] .tgz uploaded successfully, waiting for extraction

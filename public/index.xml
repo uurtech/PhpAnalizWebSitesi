@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Wed, 30 Aug 2017 14:21:07 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 13 Sep 2017 22:39:29 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Yazilimci İçin İşletim Sistemi</title>
+      <link>https://phpanaliz.com/yazi/yazilimci-icin-isletim-sistemi/</link>
+      <pubDate>Wed, 13 Sep 2017 22:39:29 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/yazilimci-icin-isletim-sistemi/</guid>
+      <description>Cümleye direk Ben MacOS kullanıyorum diye başlıyorum. Bunun sizler için hiç bir önemi olmaması gerekiyor. Çünkü ofiste kullandığım geliştirme cihazım başarılı bir Windows 10 x64
+Hangi işletim sistemini kullanmanız gerektiği ile ilgili kafanızda soru işaretleri var ise, kendinizi gerçek anlamda kod yazmaktan alıkoymak için bahane arıyorsunuz demektir. Bende aynı şekilde, Windows&amp;rsquo;dan Linux&amp;rsquo;a geçip durdum, Linux içerisinde Zentos&amp;rsquo;tan Ubuntu&amp;rsquo;ya CoreOS, Suse ne varsa denedim sonunda sahip olduğum tek şey zaman idi.</description>
+    </item>
     
     <item>
       <title>Arama</title>

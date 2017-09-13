@@ -9,7 +9,7 @@ php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım
 Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.25.1" />
+        <meta name="generator" content="Hugo 0.27.1" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Vhost Script Kullanımı">
@@ -22,13 +22,6 @@ php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-3789690953881934",
-            enable_page_level_ads: true
-          });
-        </script>
     </head>
     <body>
         
@@ -54,20 +47,20 @@ ga('send', 'pageview');
                         
                         <a class="button-square" href="https://phpanaliz.com/index.xml"><i class="fa fa-rss"></i></a>
                         
-                            <a class="button-square button-social hint--top" target="_blank" data-hint="Twitter" title="Twitter" href="https://twitter.com/phpanaliz">
+                            <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/phpanaliz">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         
                         
                         
-                            <a class="button-square button-social hint--top" target="_blank" data-hint="Github" title="Github" href="https://github.com/uurtech">
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/uurtech">
                                 <i class="fa fa-github-alt"></i>
                             </a>
                         
                         
                         
                         
-                            <a class="button-square button-social hint--top" target="_blank" data-hint="Google+" title="Google+" href="https://plus.google.com/114180123448645975351">
+                            <a class="button-square button-social hint--top" data-hint="Google+" title="Google+" href="https://plus.google.com/114180123448645975351">
                                 <i class="fa fa-google-plus"></i>
                             </a>
                         
@@ -76,10 +69,6 @@ ga('send', 'pageview');
                                 <i class="fa fa-envelope"></i>
                             </a>
                         
-
-                        <form id="search" method="get" action="/sayfa/search/" style="float:right">
-                            <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
-                            </form>
                     </div>
 
                     <ul class="site-nav">
@@ -108,22 +97,13 @@ ga('send', 'pageview');
 
 
 <div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <article class="post-container">
         <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Vhost Script Kullanımı</h1>
+    <h1 class="post-title">Vhost Script Kullanımı</h1>
     
-    <p class="post-date">
-        <span>Yayın <time datetime="2017-08-28" itemprop="datePublished">28/08/2017</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="https://plus.google.com/114180123448645975351" itemprop="url" rel="author">Uğur KAZDAL</a>
-            </span>
-        </span>
-    </p>
 </header>
 
-        <div class="post-content clearfix" itemprop="articleBody">
+        <div class="post-content clearfix">
     
         <img class="post-featured-image" src="/images/php-gelistir.jpg">
     
@@ -187,11 +167,10 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
 
 </div>
 
-
         <footer class="post-footer clearfix">
     
         <p class="post-tags">
-            <span>İçerikte Öne Çıkanlar:</span>
+            <span>Tagged:</span>
             
             
                 <a href="/tags/php/">php</a>, 
@@ -235,11 +214,7 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
         
         
     </div>
-    
 </footer>
-
-
-        
     </article>
 </div>
 
@@ -258,11 +233,12 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
                 </div>
 
                 <p class="footer-copyright">
-                    <span>&copy; 2017</span>
+                    <span>&copy; 2017 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
                 </p>
                 <p class="footer-copyright">
-                    <span>Yazar <a href="/">Uğur KAZDAL</a></span>
-                    </p>
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
             </div>
         </footer>
 
@@ -274,47 +250,6 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
         
         
         <script src="https://phpanaliz.com/js/scripts.js"></script>
-       
-       
- <script type="text/javascript">
-    function getParameterByName(name, url) {
-       if (!url) url = window.location.href;
-       name = name.replace(/[\[\]]/g, "\\$&");
-       var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-           results = regex.exec(url);
-       if (!results) return null;
-       if (!results[2]) return '';
-       return decodeURIComponent(results[2].replace(/\+/g, " "));
-   }
-   var string = getParameterByName("kelime");
-   var sonucSayac=0;
-   if(string !== null){
-    var result = new Array();
-          
-               var feed = "/index.xml";
-                $.ajax(feed, {
-                   accepts:{
-                       xml:"application/rss+xml"
-                   },
-                   dataType:"xml",
-                   success:function(data) {
-                     
-                       $(data).find("item").each(function () {
-                           var el = $(this);
-                               if(el.find("description").text().indexOf(string) > -1){
-                                sonucSayac++;
-                               $("#sonuclar").append('<li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting"><a href="'+el.find("link").text()+'" itemprop="url" title="Detaylar"><h4 class="post-stub-title" itemprop="name">'+el.find("title").text()+'</h4></a></li>');    
-                           }
-                       });
-               
-                       if(sonucSayac == 0){
-                            $("#sonuclar").append('<li class="post-stub">Sonuç bulunamadı</li>');
-                        }
-                   }   
-               });
-              
-   }
-           </script>
     </body>
 </html>
 
