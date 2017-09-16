@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Wed, 13 Sep 2017 23:28:36 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 13 Sep 2017 23:39:06 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Web Sayfasına Splash Ekleme</title>
+      <link>https://phpanaliz.com/yazi/web-sayfasina-splash-screen-ekleme/</link>
+      <pubDate>Wed, 13 Sep 2017 23:39:06 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/web-sayfasina-splash-screen-ekleme/</guid>
+      <description>Chrome&amp;rsquo;un 2 yıl önce getirdiği bir özellik, yerel web master sitelerinde bu özelliği görmedim. Google&amp;rsquo;ın Chrome paylaşımlarını incelerken dikkatimi çekti. Chrome kullanan kişiler web sitenizde splash screen görüp sitenize öyle geliyor, sanki uygulamaymış gibi.
+Desktop&amp;rsquo;ta manası olmadığı için bu size mobilde bir kalite katıyor. Müşterilerinizin sitesine değil de kendi sitenize kalite katmayı tercih edebilirsiniz.
+Gelelim Web sitemize splash ekranı eklemeye,
+İlk manifest dosyası oluşturuyoruz, dosyanın adı pek önemli değil ancak, html içerisinde geliştirinin bakarken ne olduğunu anlamasına adına adının manifest olması mantık :)</description>
+    </item>
     
     <item>
       <title>Lighthouse; Google&#39;dan Bizlere Hediye</title>
@@ -107,6 +119,69 @@ Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda 
       <guid>https://phpanaliz.com/sayfa/iletisim/</guid>
       <description>PHP ile ilgili merak ettiğiniz soruları çekinmeden sorabilirsiniz.
 E-postayı görmek için tıklayın</description>
+    </item>
+    
+    <item>
+      <title>Firebase Hosting Üzerine Blog Kurmak</title>
+      <link>https://phpanaliz.com/yazi/firebase-hosting-uzerine-blog-kurmak/</link>
+      <pubDate>Tue, 11 Jul 2017 18:50:23 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/firebase-hosting-uzerine-blog-kurmak/</guid>
+      <description>Firebase Hosting üzerine blog kurmak, evet, biraz dolaylı olacak ancak, hugo (Go ile yazılmış bir sistem) ile bunu maksimum performans ve güvenlikle firebase&amp;rsquo;e uygun şekilde blog kurabiliyoruz.
+Firebase hosting hesabınıza Hugo ile blog kurmak istiyorsanız ,
+ </description>
+    </item>
+    
+    <item>
+      <title>Facebook Comments Ekleme</title>
+      <link>https://phpanaliz.com/yazi/facebook-comment-ekleme/</link>
+      <pubDate>Tue, 11 Jul 2017 07:59:41 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/facebook-comment-ekleme/</guid>
+      <description>Hugo ile Firebase hosting üzerine kurduğumuz sitemize Facebook Comments eklemek istiyorsunuz, ancak pluginler vs uğraşmak yerine bu işi basit şekilde çözmeye niyetlisiniz, bu basit olan şey aslında 30 saniye sürerken 13 dakika da anca anlatabildim :) Buyrun
+ </description>
+    </item>
+    
+    <item>
+      <title>Hugo Datetime Degistirme</title>
+      <link>https://phpanaliz.com/yazi/hugo-datetime-degistirme/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/hugo-datetime-degistirme/</guid>
+      <description>Bilmiyorsanız hemen söyliyeyim, Hugo, Go Lang ile geliştirilmiş bir tool, web sitesinin gohugo olması buradan geliyor. Hugo sistemini kurduğunuzda tema da gözünüze batan ilk şeylerden biri, tarihlerin amerikan stili olması, çünkü alışık değiliz !
+Tema üzerinde .Site.Params.DateForm gibi bir tanımlama var ise, config dosyanızdan, yok ise doğrudan oraya da yazabilirsiniz. İlk olarak Config dosyasına DateForm diye bir değişken tanımlayalım,
+ baseURL = &#34;https://mobilsihirbazi.com/&#34; languageCode = &#34;tr-TR&#34; title = &#34;Mobil Sihirbazı - ios ve android&#34;</description>
+    </item>
+    
+    <item>
+      <title>Hugo Google Analytics</title>
+      <link>https://phpanaliz.com/yazi/hugo-google-analyitcs/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/hugo-google-analyitcs/</guid>
+      <description>Google Analytics kodlarını temanınızın ayarlarında bulunuyorsa rahatlıkla ekleyebilirsiniz, eğer temanızda .Site.Params.GoogleAnalyticsUserID bulunmuyorsa kendiniz ekleyebilirsiniz.
+Aşağıdaki videoda Google Analytics kodlarını Hugo Config dosyasına nasıl ekleyebileceğinizi ekleyebilirsiniz.
+ </description>
+    </item>
+    
+    <item>
+      <title>Firebase Domain Ekleme</title>
+      <link>https://phpanaliz.com/yazi/firebase-domain-ekleme/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/firebase-domain-ekleme/</guid>
+      <description>Firebase&amp;rsquo;in bizlere sunduğu ücretsiz hizmetler arasında Firebase Hosting&amp;rsquo;de bulunuyor. Google&amp;rsquo;ın bu ücretsiz hosting hizmetinden yararlanmak çok kolay iken, unutmamamız gereken bir şey bunuyor. Firebase Hosting sadece dosyaları barındırır ve tarayıcıya gönderir. Kısaca Wordpress vb. gibi sistemler kurulamaz. Biz Firebase&amp;rsquo;e blog kurma işlemine bu adreste inceliyor olacağız. Firebase Hosting üzerine nasıl domain eklenir görmek istiyorsanız, videoyu izleyebilirsiniz. 
+ </description>
+    </item>
+    
+    <item>
+      <title>Firebase Hosting Kullanımı</title>
+      <link>https://phpanaliz.com/yazi/firebase-hosting-kullanimi/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/firebase-hosting-kullanimi/</guid>
+      <description>Firebase&amp;rsquo;in sanırım en sevdiğim özelliği Hosting hizmeti. Firebase Hosting kullanırken hem ücretsiz SSL hem de en hızlı sunucu performansını alırken, bir de maksimum güvenlik ile işlerinize daha fazla vakit ayırabiliyorsunuz.
+Firebase&amp;rsquo;in Hosting hizmeti ile ilgili kullanımını ve detaylarını anlattığım videoyu izleyebilirsiniz.</description>
     </item>
     
   </channel>

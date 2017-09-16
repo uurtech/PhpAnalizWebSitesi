@@ -9,7 +9,7 @@ Voyager&rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşturul
 İlk olarak sinir olacağınız kadar kolay bir kullanımı mevcut, bilgisayarınız laravel kullanımına uygun değilse, hızlıca kurulumlara başlayalım, İlk olarak, XAMPP, WAMP veya MAMP kurmalısınız, benim tavsiyem kesinlikle MAMP.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        `<meta name="theme-color" content="#000000">
+        <meta name="theme-color" content="#000000">
         <meta name="generator" content="Hugo 0.27.1" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +35,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-101420301-2', 'auto');
 ga('send', 'pageview');
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -70,6 +69,9 @@ ga('send', 'pageview');
                                 <i class="fa fa-envelope"></i>
                             </a>
                         
+                        <form id="search" method="get" action="/sayfa/search/" style="float:left">
+                            <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
+                            </form>
                     </div>
 
                     <ul class="site-nav">
@@ -237,6 +239,17 @@ php artisan voyager:install --with-dummy
         
         
     </div>
+
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div id="comments"></div>
+    <script>
+    gapi.comments.render('comments', {
+        href: window.location,
+        width: '100%',
+        first_party_property: 'BLOGGER',
+        view_type: 'FILTERED_POSTMOD'
+    });
+    </script>
 </footer>
 
         
@@ -271,6 +284,47 @@ php artisan voyager:install --with-dummy
         
         
         <script src="https://phpanaliz.com/js/scripts.js"></script>
+        <script type="text/javascript">
+            function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        var sonucSayac = 0;
+        var string = getParameterByName("kelime");
+        if(string !== null){
+            var result = new Array();
+        
+                    var feed = "/index.xml";
+                        $.ajax(feed, {
+                        accepts:{
+                            xml:"application/rss+xml"
+                        },
+                        dataType:"xml",
+                        success:function(data) {
+        
+                            $(data).find("item").each(function () {
+                                var el = $(this);
+                                    if(el.find("description").text().indexOf(string) > -1){
+                                    sonucSayac++;
+                                    $("#sonuclar").append('<li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting"><a href="'+el.find("link").text()+'" itemprop="url" title="Detaylar"><h4 class="post-stub-title" itemprop="name">'+el.find("title").text()+'</h4></a></li>');    
+                                }
+                            });
+        
+        if(sonucSayac == 0){
+                        $("#sonuclar").append('<li class="post-stub">Sonuç bulunamadı</li>');
+                    }
+                        }   
+                    });
+        
+        }
+        
+        
+                </script>
     </body>
 </html>
 

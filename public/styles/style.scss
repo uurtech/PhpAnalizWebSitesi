@@ -582,7 +582,9 @@ table {
     border-top-color: $primary;
     border-left-color: $primary;
 }
-
+#search{
+    float: left;
+}
 /* ============================================================ */
 /* Media Queries */
 /* ============================================================ */
