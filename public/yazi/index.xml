@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Fri, 22 Sep 2017 23:16:45 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 11 Oct 2017 10:25:13 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/yazi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Php ile Proxy Değiştirme</title>
+      <link>https://phpanaliz.com/yazi/php-ile-proxy-degistirme/</link>
+      <pubDate>Wed, 11 Oct 2017 10:25:13 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/php-ile-proxy-degistirme/</guid>
+      <description>PHP uygulaması geliştirirken, özel nedenlerden dolayı proxy değiştirmeye ihtiyacınız olabilir, belki hile geliştiriceksiniz, belki de sisteminizi dış bağlantılarla kontrol edeceksiniz, belki de çok orijnal bir şey için ihtiyacınız var. PHP&amp;rsquo;de proxy değiştirmeye ihtiyacınız olduğunda çok rahat yapabiliyorsunuz. Önemli olan hangi metodla kendi PHP uygulamanıza uyarlamanız,
+İlk örnek CURL ile PHP&amp;rsquo;de proxy değiştirme
+function getUrl($url) { $ch = curl_init(); $timeout = 5; // set to zero for no timeout curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout); curl_setopt ($ch, CURLOPT_URL, $url); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1); curl_setopt($ch, CURLOPT_PROXY, &amp;quot;http://proxy.</description>
+    </item>
     
     <item>
       <title>Mac&#39;te img&#39;yi iso formatına çevirmek</title>
