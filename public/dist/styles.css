@@ -174,6 +174,10 @@ table tr { border-bottom: 1px dotted #aeadad; }
 #nprogress .bar { background: #f03838; }
 #nprogress .peg { box-shadow: 0 0 10px #f03838, 0 0 5px #f03838; }
 #nprogress .spinner-icon { border-top-color: #f03838; border-left-color: #f03838; }
+#comments{
+    width: 100% !important;
+    height: 400px !important;
+}
 @media only screen and (max-width: 800px) {
  .post-stub-tag { display: none; }
 }
@@ -185,7 +189,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
  blockquote { margin: 30px 0; }
  pre { margin: 20px 0; }
  hr { margin: 35px 0; }
- .site-header { padding-top: 40px; }
+ .site-header { display:none; }
  .site-title { float: none; margin-bottom: 15px; }
  .site-title a { float: none; }
  .site-title + .button-square { margin-left: 0; }

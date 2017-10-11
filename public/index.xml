@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Sat, 16 Sep 2017 20:47:03 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 Sep 2017 23:16:45 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac&#39;te img&#39;yi iso formatına çevirmek</title>
+      <link>https://phpanaliz.com/yazi/img-to-iso-mac/</link>
+      <pubDate>Fri, 22 Sep 2017 23:16:45 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/img-to-iso-mac/</guid>
+      <description>MacOS kullanırken bazı durumlarda acil terminal araçlarına ihtiyaç olabiliyor. Ben sanallaştırma yaparken, indirdiğim img dosyasını acilen iso&amp;rsquo;ya çevirme ihtiyacı hissettim, dahili olan araçlarla yaptığımda paket hataları vb. ile karşılaştım, araştırdığımda ise kullananların memnun kaldığı bir araç ile karşılaştım; CCD2iso.
+Bu aracı img dosyamı iso yapmak için kullandım ve, kesinlikle başarılı ve bir o kadar da hızlı.
+Hemen ccd2iso&amp;rsquo;nun kurulumuna geçelim,
+terminali açıyoruz. Eğer brew sizlerde kurulu ise, direk ikinci komuta geçebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark Testleri</title>
+      <link>https://phpanaliz.com/yazi/benchmark-testleri/</link>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/benchmark-testleri/</guid>
+      <description>Bu yazıda PHP&amp;rsquo;i şu dili böyle döver falan gibi saçma şeyler olmayacak, her yazılım dilinin başka bir dile üstün olduğu alanlar mevcuttur ki 2017 yılında Cache sistemlerinin olması nedeniyle doğru yapılan işlerde dillerin pek önemi kalmıyor. Biz benchmark testlerine bakıp PHP&amp;rsquo;nin performans olarak ileride olduğu noktaları inceleyelim,
+İlk olarak, Script dilleri ile ilgili karşılaştırmasına bakalım
+Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakalım,
+ PHP : 0.281 Ruby : 0.684 Python : 1.</description>
+    </item>
     
     <item>
       <title>Google Plus Comments Ekleme</title>
@@ -118,7 +142,6 @@ php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım
       <guid>https://phpanaliz.com/sayfa/hakkimda/</guid>
       <description>Merhaba, Ben Uğur KAZDAL, 1ki3 Bilgi Teknolojileri firmasında Teknolojiden Sorumlu Yönetici olarak çalışmaktayım.
 Kişisel projelerimde genellikle PHP&amp;rsquo;yi kullanmaktayım. Ara ara kendi sitelerimde bu tür işlemleri paylaşmaktayım.
-Bununla birlikte Firebase ile ilgili de makale ve video kayıtları paylaşmaktayım
 Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımımım mevcut ise fikirlerinizi iletişim bağlantısından iletebilirsiniz.</description>
     </item>
     
