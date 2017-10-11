@@ -1,6 +1,11 @@
 Mevcut web sitemin repo'su, Dropbox yerine burada tutmak daha mantıklı geldi
 
 Yayınlanmış yazılar
+
+* [Mac'te img'yi iso formatına çevirmek](https://phpanaliz.com/yazi/img-to-iso-mac/)
+* [Benchmark Testleri](https://phpanaliz.com/yazi/benchmark-testleri/)
+* [Google Plus Comments Ekleme](https://phpanaliz.com/yazi/google-plus-comments-ekleme/)
+* [Web Sayfasına Splash Ekleme](https://phpanaliz.com/yazi/web-sayfasina-splash-screen-ekleme/)
 * [Yazılımcı için işletim sistemi](https://phpanaliz.com/yazi/yazilimci-icin-isletim-sistemi/)
 * [Jquery ile Hugo Search Ekleme](https://phpanaliz.com/yazi/jquery-ile-firebase-siteye-search-ekleme/)
 * [Laravel ile 2 dakika da admin paneli kurmak](https://phpanaliz.com/yazi/laravel-ile-2-dakikada-admin-paneli-kurmak/)
