@@ -3,22 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Vhost Script Kullanımı &middot; Uğur KAZDAL</title>
-        <meta name="description" content="MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
-php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.
-Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim">
+        <title>Php ile CPP kodları çalıştırmak &middot; Uğur KAZDAL</title>
+        <meta name="description" content="PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
+İlk kurgumuz şu şekilde, C&#43;&#43; ile yazılmış veya yazacağımız bir yapımız var, bunu PHP içerisinde kullanmak istiyoruz. Ne yapmalıyız? Cevap Wrapper kodlamak. PHP&rsquo;nin yazdığımı kodu anlayabilmesi için bir eklenti geliştirmek.
+İkinci kurgumuz, o kadar büyük abartılı değil basit olarak ne yapılabilir.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="theme-color" content="#000000">
         <meta name="generator" content="Hugo 0.27.1" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Vhost Script Kullanımı">
-<meta property="og:description" content="MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
-php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.
-Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim">
+        <meta property="og:title" content="Php ile CPP kodları çalıştırmak">
+<meta property="og:description" content="PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
+İlk kurgumuz şu şekilde, C&#43;&#43; ile yazılmış veya yazacağımız bir yapımız var, bunu PHP içerisinde kullanmak istiyoruz. Ne yapmalıyız? Cevap Wrapper kodlamak. PHP&rsquo;nin yazdığımı kodu anlayabilmesi için bir eklenti geliştirmek.
+İkinci kurgumuz, o kadar büyük abartılı değil basit olarak ne yapılabilir.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://phpanaliz.com/yazi/vhosts-script-kullanimi/">
+<meta property="og:url" content="https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/">
         <link rel="stylesheet" href="https://phpanaliz.com/dist/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -114,10 +114,10 @@ ga('send', 'pageview');
 <div class="container">
     <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Vhost Script Kullanımı</h1>
+    <h1 class="post-title" itemprop="name headline">Php ile CPP kodları çalıştırmak</h1>
     
     <p class="post-date">
-        <span><time datetime="2017-08-28" itemprop="datePublished">28/08/2017</time></span>
+        <span><time datetime="2017-10-13" itemprop="datePublished">13/10/2017</time></span>
         <span>Yazan : </span>
         <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
             <span itemprop="name">
@@ -129,65 +129,129 @@ ga('send', 'pageview');
 
         <div class="post-content clearfix" itemprop="articleBody">
     
-        <img class="post-featured-image" src="/images/php-gelistir.jpg">
-    
 
-    <p><strong><em>MAMP, XAMPP veya WAMP</em></strong> ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum</p>
+    <p><strong><em>PHP</em></strong> geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle <strong><em>cpp</em></strong> oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.</p>
 
-<pre><code>php vhosts.php
-DİZİN
-localDomain.dev
+<p>İlk kurgumuz şu şekilde, C++ ile yazılmış veya yazacağımız bir yapımız var, bunu PHP içerisinde kullanmak istiyoruz. Ne yapmalıyız? <strong><em>Cevap</em></strong> Wrapper kodlamak. PHP&rsquo;nin yazdığımı kodu anlayabilmesi için bir eklenti geliştirmek.</p>
+
+<p>İkinci kurgumuz, o kadar büyük abartılı değil basit olarak ne yapılabilir. Bu soru üniversitede ya da lise de ödev sorusu gibi gözüküyor. Bunu hemen cevaplayalım, php-cpp diye bir eklentimiz var. PHP için eklenti geliştirmeyi çok kolay hale getiriyor.</p>
+
+<p>Bu yazıda ikinci kurgudan ilerliyoruz. Çünkü işlerimiz acil ve pratik çözüme ihtiyacımız var.</p>
+
+<p>İlk olarak söyliyeyim, bu sistemin geliştiricisi sadece Linux dağıtımları kullandığı için Windows üzerinde çalışıp çalışmamasını umursamamış.</p>
+
+<p>Hadi başlayalım,</p>
+
+<pre><code>$ git clone https://github.com/CopernicaMarketingSoftware/PHP-CPP.git
 </code></pre>
 
-<p>Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.</p>
+<p>Linux bir makinedeysek, yapmamız gereken tek şey dizine girip <strong><em>make</em></strong> komutunu çalıştırıp eklentiyi inşaa etmek.</p>
 
-<p>Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim</p>
+<p>Eğer MacOS üzerindeyseniz <strong><em>makefile</em></strong> üzerinde bir değişiklik yapmanız gerekiyor. makefile dosyasını açın ve <strong><em>LINKER_FLAGS</em></strong>  gelip <strong><em>-undefined dynamic_lookup</em></strong> tanımlamasını ekleyin.</p>
 
-<pre><code>&lt;?php
-$i = 0;
-$infos = array();
-while($f = fgets(STDIN)){
-    $i++;
-    $infos[] = str_replace(&quot;\n&quot;,&quot;&quot;,$f);
-    if($i == 2){
-        break;
+<pre><code>$ sudo make install
+</code></pre>
+
+<p>Dediğimizde PHP-CPP eklentisi inşaa edilmiş olacak.</p>
+
+<p>Linux üzerinden devam ediyoruz.</p>
+
+<p><strong><em>Makefile</em></strong> dosyamızı düzenleyelim</p>
+
+<pre><code>NAME                =   cilgineklentim
+UBUNTU_MAJOR  := $(shell /usr/bin/lsb_release -r -s | cut -f1 -d.)
+OVER_SIXTEEN  := $(shell echo &quot;${UBUNTU_MAJOR} &gt;= 16&quot; | bc)
+OVER_FOURTEEN := $(shell echo &quot;${UBUNTU_MAJOR} &gt;= 14&quot; | bc)
+
+ifeq (${OVER_SIXTEEN}, 1)
+    INI_DIR     =   /etc/php/7.0/mods-available/
+else ifeq (${OVER_FOURTEEN}, 1)
+    INI_DIR     =   /etc/php5/mods-available/
+else
+    INI_DIR     =   /etc/php5/conf.d/
+endif
+EXTENSION_DIR       =   $(shell php-config --extension-dir)
+EXTENSION           =   ${NAME}.so
+INI                 =   ${NAME}.ini
+COMPILER            =   g++
+LINKER              =   g++
+COMPILER_FLAGS      =   -Wall -c -O2 -std=c++11 -fpic -o
+LINKER_FLAGS        =   -shared
+LINKER_DEPENDENCIES =   -lphpcpp
+RM                  =   rm -f
+CP                  =   cp -f
+MKDIR               =   mkdir -p
+SOURCES             =   $(wildcard *.cpp)
+OBJECTS             =   $(SOURCES:%.cpp=%.o)
+all:                    ${OBJECTS} ${EXTENSION}
+${EXTENSION}:           ${OBJECTS}
+                        ${LINKER} ${LINKER_FLAGS} -o $@ ${OBJECTS} ${LINKER_DEPENDENCIES}
+${OBJECTS}:
+                        ${COMPILER} ${COMPILER_FLAGS} $@ ${@:%.o=%.cpp}
+install:        
+                        ${CP} ${EXTENSION} ${EXTENSION_DIR}
+                        ${CP} ${INI} ${INI_DIR}
+clean:
+                        ${RM} ${EXTENSION} ${OBJECTS}
+</code></pre>
+
+<p><strong><em>cilgineklemtim.ini</em></strong> dosyamız da eklentimizi tanımlıyoruz
+    extension=cilgineklentim.so</p>
+
+<p>*<strong>Main.cpp</strong>
+    #include <phpcpp.h>
+    #include <iostream></p>
+
+<pre><code>void MerhabaCinim (Php::Parameters &amp;params)
+{
+    std::string name=params[0];
+    std::cout&lt;&lt;&quot;Selams &quot;&lt;&lt;name&lt;&lt;&quot;!&quot;&lt;&lt;std::endl;
+
+}
+extern &quot;C&quot; {
+    PHPCPP_EXPORT void *get_module() 
+    {
+        //statik olmasının nednei Php:extension tüm işlem süresince ram'de bulunmalı.
+        static Php::Extension extension(&quot;cilgineklentim&quot;, &quot;1.0&quot;);
+        extension.add(&quot;MerhabaCinim&quot;, MerhabaCinim);
+               return extension;
     }
 }
-if(count($infos) &gt; 2) die(&quot;pls.&quot;);
-$string = '&lt;VirtualHost *:80&gt;
-ServerAdmin email@email.com
-DocumentRoot &quot;C:/xampp/htdocs/'.$infos[0].'&quot;
-ServerName '.$infos[1].'
-ServerAlias '.$infos[1].'
-&lt;/VirtualHost&gt;
-';
-$local_link = &quot;127.0.0.1            &quot;.$infos[1];
-file_put_contents(&quot;C:/xampp/apache/conf/extra/httpd-vhost.conf&quot;,$string,FILE_APPEND);
-file_put_contents(&quot;C:/Windows/System32/drivers/etc/hosts&quot;,$local_link,FILE_APPEND);
-?&gt;
 </code></pre>
 
-<p>Laravel projelerim için dizini belirtirken <strong><em>projeAdi/public</em></strong> diyerek yapabiliyorum.
-Bununla birlikte kullandığınız işletim sistemine göre, aşağıdaki iki satırı düzenleyin</p>
+<p>Örnek bir eklenti ve bir fonksiyon hazırladık, şimdi derleyelim
+    make &amp;&amp; sudo make install</p>
 
-<pre><code>file_put_contents(&quot;C:/xampp/apache/conf/extra/httpd-vhost.conf&quot;,$string,FILE_APPEND);
-file_put_contents(&quot;C:/Windows/System32/drivers/etc/hosts&quot;,$local_link,FILE_APPEND);
+<p>Ardından dosyaları php&rsquo;mizin bulunduğu dizine ve eklenti dizinine ekliyoruz.
+    cp -f skeleton.so /usr/lib/php5/20121212
+    cp -f skeleton.ini /etc/php5/cli/conf.d</p>
+
+<p>Eğer eklenti dizinini bilmiyorsanız hemen,</p>
+
+<pre><code>apt-get install php-config
+php-config --extension-dir
 </code></pre>
 
-<p>Bunlarla birlikte Apache yapılandırma dosyanızda bu belirtilen vhosts dosyasının Include edildiğinden emin olun.</p>
+<p>ile öğrenebilirsiniz.Bi dk durun sakin olun gerek yok
+    php -i | grep extension_dir</p>
 
-<p>Xampp için <strong><em>DISK\xampp\apache\conf\httpd.conf</em></strong>
-MAMP için <strong><em>DISK\MAMP\conf\apache\httpd.conf</em></strong>
-WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
+<p>ile de görebiliyorsunuz :)</p>
 
-<p>Dosyalarını açın ve içerisinde Vhosts diye aratın,</p>
+<p>Ardından php&rsquo;mizin bu eklentiyi yükleyip yüklemediğini görelim</p>
 
-<pre><code>#Include conf/extra/httpd-vhosts.conf
+<pre><code>php -i | grep cilgineklentim
 </code></pre>
 
-<p>benzer bir satır olacak (tabi ki işletim sisteminize ve kullandığınız pakete göre değişecektir), bu satırın başındaki # işaretini kaldırın ve XAMPP/MAMP/WAMP ne kullanıyorsanız, içerisindeki Apache&rsquo;yi yeniden başlatın.</p>
+<p>Bu komut sonrasında ekranda hem eklentimizin ini dosyası yolu hem de adı yazmalı</p>
 
-<p>Bu script için Github Repo oluşturmaya gerek yoktu ancak, popüler programlama dilleri içinde benzer scriptler yazılabilir, Repo&rsquo;ya gitmek için <a href="https://github.com/uurtech/vhosts-creator-script" target="_blank"><a href="https://github.com/uurtech/vhosts-creator-script">https://github.com/uurtech/vhosts-creator-script</a></a> bağlantısını ziyaret edebilirsiniz.</p>
+<p>Artık php içerisinde eklentimizi kullanabiliriz</p>
+
+<pre><code>&lt;?php
+
+echo MerhabaCinim('naptin');
+</code></pre>
+
+<p>İşin en temeli bu, abartmak isteyenler için,<a href="http://www.php-cpp.com/documentation">bu adres</a> birebir.</p>
 
 </div>
 
@@ -199,22 +263,14 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
             
                 <a href="/tags/php/">php</a>, 
             
-                <a href="/tags/github/">github</a>, 
-            
-                <a href="/tags/script/">script</a>, 
-            
-                <a href="/tags/vhost/">vhost</a>, 
-            
-                <a href="/tags/vhost-kullan%C4%B1m%C4%B1/">vhost kullanımı</a>, 
-            
-                <a href="/tags/local-domain/">local domain</a>
+                <a href="/tags/cpp/">cpp</a>
             
         </p>
     
 
     <div class="share">
         
-            <a class="icon-twitter" href="https://twitter.com/share?text=Vhost%20Script%20Kullan%c4%b1m%c4%b1&url=https%3a%2f%2fphpanaliz.com%2fyazi%2fvhosts-script-kullanimi%2f"
+            <a class="icon-twitter" href="https://twitter.com/share?text=Php%20ile%20CPP%20kodlar%c4%b1%20%c3%a7al%c4%b1%c5%9ft%c4%b1rmak&url=https%3a%2f%2fphpanaliz.com%2fyazi%2fphp-kodu-icerisinde-cpp-kodu-calistirma%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
@@ -222,7 +278,7 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
         
 
         
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fphpanaliz.com%2fyazi%2fvhosts-script-kullanimi%2f"
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fphpanaliz.com%2fyazi%2fphp-kodu-icerisinde-cpp-kodu-calistirma%2f"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-facebook"></i>
                 <span class="hidden">Facebook</span>
@@ -230,7 +286,7 @@ WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
         
 
         
-            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fphpanaliz.com%2fyazi%2fvhosts-script-kullanimi%2f"
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fphpanaliz.com%2fyazi%2fphp-kodu-icerisinde-cpp-kodu-calistirma%2f"
               onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
               <i class="fa fa-google-plus"></i>
                 <span class="hidden">Google+</span>

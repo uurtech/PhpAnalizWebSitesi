@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Fri, 13 Oct 2017 10:49:53 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2017 14:52:13 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Php ile CPP kodları çalıştırmak</title>
+      <link>https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/</link>
+      <pubDate>Fri, 13 Oct 2017 14:52:13 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/</guid>
+      <description>PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
+İlk kurgumuz şu şekilde, C++ ile yazılmış veya yazacağımız bir yapımız var, bunu PHP içerisinde kullanmak istiyoruz. Ne yapmalıyız? Cevap Wrapper kodlamak. PHP&amp;rsquo;nin yazdığımı kodu anlayabilmesi için bir eklenti geliştirmek.
+İkinci kurgumuz, o kadar büyük abartılı değil basit olarak ne yapılabilir.</description>
+    </item>
     
     <item>
       <title>Gizlilik</title>
