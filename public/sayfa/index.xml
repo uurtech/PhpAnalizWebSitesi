@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Wed, 30 Aug 2017 14:21:07 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2017 10:49:53 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/sayfa/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gizlilik</title>
+      <link>https://phpanaliz.com/sayfa/gizlilik/</link>
+      <pubDate>Fri, 13 Oct 2017 10:49:53 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/sayfa/gizlilik/</guid>
+      <description>Gizlilik Politikası ve Şartlar
+Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçüncü taraf reklam şirketlerini kullanmaktayız. Söz konusu şirketler, bu sitelere ve diğer web sitelerine yaptığınız ziyaretlerden elde ettikleri (adınız, adresiniz, e-posta adresiniz veya telefon numaranız dışındaki) bilgileri ilginizi çekecek ürün ve hizmetlerin reklamını size göstermek için kullanabilir. Bu uygulama hakkında bilgi edinmek için ve söz konusu bilgilerin bu şirketler tarafından kullanılmasını engellemek üzere seçeneklerinizin neler olduğunu öğrenmek isterseniz NAI Self-Regulatory principles for publishers (PDF) belgesinin A Eki&amp;rsquo;ne bakınız .</description>
+    </item>
     
     <item>
       <title>Arama</title>
@@ -29,7 +39,7 @@
       <guid>https://phpanaliz.com/sayfa/hakkimda/</guid>
       <description>Merhaba, Ben Uğur KAZDAL, 1ki3 Bilgi Teknolojileri firmasında Teknolojiden Sorumlu Yönetici olarak çalışmaktayım.
 Kişisel projelerimde genellikle PHP&amp;rsquo;yi kullanmaktayım. Ara ara kendi sitelerimde bu tür işlemleri paylaşmaktayım.
-Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımımım mevcut ise fikirlerinizi iletişim bağlantısından iletebilirsiniz.</description>
+Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımım mevcut ise fikirlerinizi iletişim bağlantısından iletebilirsiniz.</description>
     </item>
     
     <item>

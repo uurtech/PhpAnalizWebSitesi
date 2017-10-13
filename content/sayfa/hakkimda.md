@@ -8,5 +8,5 @@ Merhaba, Ben Uğur KAZDAL, [1ki3 Bilgi Teknolojileri](http://www.1ki3.com/) firm
 
 Kişisel projelerimde genellikle PHP'yi kullanmaktayım. Ara ara kendi sitelerimde bu tür işlemleri paylaşmaktayım.
 
-Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımımım mevcut ise fikirlerinizi [iletişim](/sayfa/iletisim) bağlantısından iletebilirsiniz.
+Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımım mevcut ise fikirlerinizi [iletişim](/sayfa/iletisim) bağlantısından iletebilirsiniz.
 

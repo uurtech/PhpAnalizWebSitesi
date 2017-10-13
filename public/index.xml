@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Wed, 11 Oct 2017 10:25:13 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2017 10:49:53 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gizlilik</title>
+      <link>https://phpanaliz.com/sayfa/gizlilik/</link>
+      <pubDate>Fri, 13 Oct 2017 10:49:53 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/sayfa/gizlilik/</guid>
+      <description>Gizlilik Politikası ve Şartlar
+Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçüncü taraf reklam şirketlerini kullanmaktayız. Söz konusu şirketler, bu sitelere ve diğer web sitelerine yaptığınız ziyaretlerden elde ettikleri (adınız, adresiniz, e-posta adresiniz veya telefon numaranız dışındaki) bilgileri ilginizi çekecek ürün ve hizmetlerin reklamını size göstermek için kullanabilir. Bu uygulama hakkında bilgi edinmek için ve söz konusu bilgilerin bu şirketler tarafından kullanılmasını engellemek üzere seçeneklerinizin neler olduğunu öğrenmek isterseniz NAI Self-Regulatory principles for publishers (PDF) belgesinin A Eki&amp;rsquo;ne bakınız .</description>
+    </item>
+    
+    <item>
+      <title>Php ile Resim Compress</title>
+      <link>https://phpanaliz.com/yazi/php-ile-resim-dosya-boyutu-kucultme/</link>
+      <pubDate>Thu, 12 Oct 2017 21:16:07 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/php-ile-resim-dosya-boyutu-kucultme/</guid>
+      <description>PHP&amp;lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.
+Müşterilerimize web sitelerini verirken, tinypng üzerinden resim sıkıştırıp yayınlıyoruz, Tinypng&amp;rsquo;nin Photoshop eklentisi ise sadece Windows&amp;rsquo;ta çalıştığı için satın almamız bir şey ifade etmeyeceğinden, dizindeki resimleri sıkıştırıp başka bir klasöre atan bir script geliştirdim.
+Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsiniz.
+İlk olarak tinypng.com adresine girip ücretsiz developer key talep ediyoruz, şifre bile girmenize gerek yok, gelen e-posta ile login olup developer key&amp;rsquo;i alabilirsiniz.</description>
+    </item>
     
     <item>
       <title>Php ile Proxy Değiştirme</title>
@@ -153,7 +175,7 @@ php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım
       <guid>https://phpanaliz.com/sayfa/hakkimda/</guid>
       <description>Merhaba, Ben Uğur KAZDAL, 1ki3 Bilgi Teknolojileri firmasında Teknolojiden Sorumlu Yönetici olarak çalışmaktayım.
 Kişisel projelerimde genellikle PHP&amp;rsquo;yi kullanmaktayım. Ara ara kendi sitelerimde bu tür işlemleri paylaşmaktayım.
-Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımımım mevcut ise fikirlerinizi iletişim bağlantısından iletebilirsiniz.</description>
+Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımım mevcut ise fikirlerinizi iletişim bağlantısından iletebilirsiniz.</description>
     </item>
     
     <item>

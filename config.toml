@@ -52,3 +52,8 @@ DefaultContentLanguage = "tr"
     name = "İletişim"
     url = "/sayfa/iletisim/"
     weight = 4
+
+[[menu.main]]
+    name = "Gizlilik"
+    url = "/sayfa/gizlilik/"
+    weight = 5
