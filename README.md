@@ -3,6 +3,7 @@ Mevcut web sitemin repo'su, Dropbox yerine burada tutmak daha mantıklı geldi
 Yayınlanmış yazılar
 * [Php ile Terminalde Emoji Yazdırmak](https://phpanaliz.com/yazi/php-ile-terminalde-emoji-yazdirmak/)
 * [Php Facebook Login Yeni Api](https://phpanaliz.com/yazi/php-facebook-login-yeni-api/)
+* [Php Komut Satırı Kodlari Çalıştırmak](https://phpanaliz.com/yazi/php-komut-satiri-kodlari-calistirmak/)
 * [Php ile CPP kodları çalıştırmak](https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/)
 * [Php ile Resim Compress](https://phpanaliz.com/yazi/php-ile-resim-dosya-boyutu-kucultme/)
 * [Mac'te img'yi iso formatına çevirmek](https://phpanaliz.com/yazi/img-to-iso-mac/)
