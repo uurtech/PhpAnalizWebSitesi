@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Fri, 13 Oct 2017 14:52:13 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 12:38:47 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Php Komut Satırı Kodlari Çalıştırmak</title>
+      <link>https://phpanaliz.com/yazi/php-komut-satiri-kodlari-calistirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/php-komut-satiri-kodlari-calistirmak/</guid>
+      <description>PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&amp;rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
+Sıralayalım
+ escapeshellarg — Bir komutun değiştirge dizgesini önceler escapeshellcmd — Kabuk meta karakterlerini önceler exec — Bir komut çalıştırır passthru — Harici bir programı çalıştırır ve çıktısını ham olarak gösterir proc_close — proc_open tarafından açılmış bir süreci kapatır ve sürecin çıkış kodunu döndürür proc_get_status — proc_open tarafından açılmış bir süreç hakkında bilgi döndürür proc_nice — Çalışan sürecin önceliğini değiştirir proc_open — Bir komutu çalıştırır ve G/Ç için bir dosya tanıtıcı açar proc_terminate — proc_open ile açılmış bir süreci öldürür shell_exec — Komutu kabukta çalıştırır ve çıktısının tamamını bir dizge olarak döndürür system — Belirtilen harici komutu çalıştırır ve çıktısını gösterir  Bunların arasında system fonksiyonu C dilinde de mevcut.</description>
+    </item>
     
     <item>
       <title>Php ile CPP kodları çalıştırmak</title>

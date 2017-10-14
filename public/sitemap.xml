@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://phpanaliz.com/yazi/php-komut-satiri-kodlari-calistirmak/</loc>
+    <lastmod>2017-10-14T12:38:47+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/</loc>
     <lastmod>2017-10-13T14:52:13+03:00</lastmod>
   </url>
@@ -129,7 +134,7 @@
   
   <url>
     <loc>https://phpanaliz.com/</loc>
-    <lastmod>2017-10-13T14:52:13+03:00</lastmod>
+    <lastmod>2017-10-14T12:38:47+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,7 +146,7 @@
   
   <url>
     <loc>https://phpanaliz.com/yazi/</loc>
-    <lastmod>2017-10-13T14:52:13+03:00</lastmod>
+    <lastmod>2017-10-14T12:38:47+03:00</lastmod>
     <priority>0</priority>
   </url>
   
