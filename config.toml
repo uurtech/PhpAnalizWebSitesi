@@ -5,6 +5,7 @@ languageCode = "tr-TR"
 copyright = "Uğur KAZDAL"
 googleAnalytics = "UA-101420301-2"
 DefaultContentLanguage = "tr"
+pluralizelisttitles = false
 [Author]
     name = "Uğur KAZDAL"
     profile = "https://plus.google.com/114180123448645975351"

@@ -247,7 +247,7 @@ ga('send', 'pageview');
         
                             $(data).find("item").each(function () {
                                 var el = $(this);
-                                    if(el.find("description").text().indexOf(string) > -1){
+                                    if(el.find("description").text().toLocaleLowerCase().indexOf(string.toLowerCase()) > -1){
                                     sonucSayac++;
                                     $("#sonuclar").append('<li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting"><a href="'+el.find("link").text()+'" itemprop="url" title="Detaylar"><h4 class="post-stub-title" itemprop="name">'+el.find("title").text()+'</h4></a></li>');    
                                 }

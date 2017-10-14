@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Yazis &middot; Uğur KAZDAL</title>
+        <title>Yazi &middot; Uğur KAZDAL</title>
         <meta name="description" content="İşimiz Gücümüz PHP">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
@@ -11,7 +11,7 @@
         <meta name="generator" content="Hugo 0.27.1" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Yazis">
+        <meta property="og:title" content="Yazi">
 <meta property="og:description" content="İşimiz Gücümüz PHP">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://phpanaliz.com/yazi/">
@@ -260,7 +260,7 @@ ga('send', 'pageview');
         
                             $(data).find("item").each(function () {
                                 var el = $(this);
-                                    if(el.find("description").text().indexOf(string) > -1){
+                                    if(el.find("description").text().toLocaleLowerCase().indexOf(string.toLowerCase()) > -1){
                                     sonucSayac++;
                                     $("#sonuclar").append('<li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting"><a href="'+el.find("link").text()+'" itemprop="url" title="Detaylar"><h4 class="post-stub-title" itemprop="name">'+el.find("title").text()+'</h4></a></li>');    
                                 }
