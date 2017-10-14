@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Sat, 14 Oct 2017 13:33:21 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 15:30:58 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Php ile Terminalde Emoji Yazdırmak</title>
+      <link>https://phpanaliz.com/yazi/php-ile-terminalde-emoji-yazdirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/php-ile-terminalde-emoji-yazdirmak/</guid>
+      <description>PHP ile konsola komut gönderimine bakmıştık, bu sefer konsol üzerinde emoji yazdırmaya bakalım.
+Nerden aklına geldi derseniz, forumlarda baya baya sormuş arkadaşlar, bulunsun istedim.
+Tahmin ettiğiniz gibi yapmamız gereken PHP&amp;rsquo;de komut satırına &amp;ldquo;bu işi sen yap&amp;rdquo; demek.
+Şimdi mevcut sistem üzerindeki komutu çalıştırması için system() methodunu kullanarak emojiyi yazdırmasını sağlayacağız.
+system(&amp;quot;echo \xE2\x98\xA0&amp;quot;);  Gördüğünüz gibi, terminalde ekrana yazı yazdırma komutumuz echo, bu windows tarafında da bu şekilde.
+Peki buradaki bu karakterler ne anlama geliyor.</description>
+    </item>
     
     <item>
       <title>Php Facebook Login Yeni Api</title>
