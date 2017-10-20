@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Cloudflare on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/cloudflare/</link>
+    <language>tr</language>
+    
+    
+    <updated>Wed, 18 Oct 2017 07:23:26 &#43;03</updated>
+    
+    <item>
+      <title>Cloudflare Jquery Sorunu</title>
+      <link>https://phpanaliz.com/post/cloudflare-jquery-sorunu/</link>
+      <pubDate>Wed, 18 Oct 2017 07:23:26 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/cloudflare-jquery-sorunu/</guid>
+      <description>Construct 2 ile oyun geliştirdik, Cloudflare premium hesabını mevcut adresimize yönlendirdik ancak Safari haricindeki tarayıcılarda oyun çalışmıyordu.
+Saatlerce oyun ile ilgili sorun olduğunu düşündükten sonra sorunun cache ile ilgili olduğunu tespit edip bu yönde çalışmaya başladık. Oyun sayfamızdaki elementlerin sorunsuz yüklenmesi ve Safari&amp;rsquo;de çalışmasının sonunda, oyunu çağıran kodlarımıza bir bakmak istedik ve gördük ki, document.ready fonksiyonu çalıştırılmıyor ancak bu konuda herhangi bir hatanın konsolda olmaması bizlere bu zamanı kaybettirdi.
+Dikkatimize çarpan şey ise jquery&amp;rsquo;nin sayfa içerisine alınırken tipinin değiştirilmesi yani şu şekilde,</description>
+    </item>
+    
+  </channel>
+</rss>
+

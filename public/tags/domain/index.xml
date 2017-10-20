@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Domain on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/domain/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sat, 08 Jul 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Firebase Domain Ekleme</title>
+      <link>https://phpanaliz.com/post/firebase-domain-ekleme/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 UTC</pubDate>
+      
+      <guid>https://phpanaliz.com/post/firebase-domain-ekleme/</guid>
+      <description>Firebase&amp;rsquo;in bizlere sunduğu ücretsiz hizmetler arasında Firebase Hosting&amp;rsquo;de bulunuyor. Google&amp;rsquo;ın bu ücretsiz hosting hizmetinden yararlanmak çok kolay iken, unutmamamız gereken bir şey bunuyor. Firebase Hosting sadece dosyaları barındırır ve tarayıcıya gönderir. Kısaca Wordpress vb. gibi sistemler kurulamaz. Biz Firebase&amp;rsquo;e blog kurma işlemine bu adreste inceliyor olacağız. Firebase Hosting üzerine nasıl domain eklenir görmek istiyorsanız, videoyu izleyebilirsiniz. 
+ </description>
+    </item>
+    
+  </channel>
+</rss>
+

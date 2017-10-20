@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Local Domain on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/local-domain/</link>
+    <language>tr</language>
+    
+    
+    <updated>Mon, 28 Aug 2017 23:14:26 &#43;03</updated>
+    
+    <item>
+      <title>Vhost Script Kullanımı</title>
+      <link>https://phpanaliz.com/post/vhosts-script-kullanimi/</link>
+      <pubDate>Mon, 28 Aug 2017 23:14:26 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/vhosts-script-kullanimi/</guid>
+      <description>MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
+php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.
+Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim</description>
+    </item>
+    
+  </channel>
+</rss>
+

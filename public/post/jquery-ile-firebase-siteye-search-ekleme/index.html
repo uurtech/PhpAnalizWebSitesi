@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jquery ile Hugo Search Ekleme - PHP Analiz - Uğur KAZDAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PHP Analiz - Php ile ilgili garip içeriklere sahip orjinal site.">
+  <meta name="author" content="Uğur KAZDAL">
+  <meta name="keywords" content="php, html5, jquery,hugo,go lang">
+  <link rel="canonical" href="https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3789690953881934",
+      enable_page_level_ads: true
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://phpanaliz.com//css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="https://phpanaliz.com/" class="site-title">PHP Analiz - Uğur KAZDAL</a>
+      <nav class="site-nav right">
+      <a href="https://phpanaliz.com/tags/">Konular</a>
+<a href="https://phpanaliz.com//page/hakkimda/">Hakkımda</a>
+<a href="https://phpanaliz.com//page/iletisim/">İletişim</a>
+<a href="https://phpanaliz.com//page/gizlilik/">Gizlilik</a><form id="search" method="get" action="/page/search/">
+    <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
+    </form>
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Jquery ile Hugo Search Ekleme</h1>
+       
+        
+      </div>
+
+      <article class="post-content">
+      <p>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.</p>
+
+<p>Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?</p>
+
+<p>Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&rsquo;a içeriklerimin gönderilmesi gerek. O zaman aklıma direk search&rsquo;ü son kullancı tarafında bu XML dosyaları içerisinde yaptırabilirim yanıtı geliyor.</p>
+
+<p>Bunun için temamdaki kütüphaneleri inceleyiyeyim,</p>
+
+<pre><code>    &lt;script src=&quot;https://phpanaliz.com/js/jquery-1.11.3.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://phpanaliz.com/js/jquery.fitvids.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Yukarıda gördüğünüz gibi çoğu tema da olduğu gibi Jquery kullanılmış, o zaman hızlıca Jquery ile nasıl yapacağımıza bakalım.</p>
+
+<p>Siteyi yayınladığım kodların içerisinde her verinin bulunduğu bir XML dosyası buldum,</p>
+
+<pre><code>https://phpanaliz.com/index.xml
+</code></pre>
+
+<p>O zaman bu dosya üzerinde arama yaptırmalıyım, ilk olarak footer&rsquo;a javascript kodlarımı ekliyorum, bu kodlar her seferinde çalışmasın sadece kelime aratılmışsa çalışsın diye de bir sorgu ekliyorum,</p>
+
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+    function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, &quot;\\$&amp;&quot;);
+    var regex = new RegExp(&quot;[?&amp;]&quot; + name + &quot;(=([^&amp;#]*)|&amp;|#|$)&quot;),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, &quot; &quot;));
+}
+var sonucSayac = 0;
+var string = getParameterByName(&quot;kelime&quot;);
+if(string !== null){
+    var result = new Array();
+
+            var feed = &quot;/index.xml&quot;;
+                $.ajax(feed, {
+                accepts:{
+                    xml:&quot;application/rss+xml&quot;
+                },
+                dataType:&quot;xml&quot;,
+                success:function(data) {
+
+                    $(data).find(&quot;item&quot;).each(function () {
+                        var el = $(this);
+                            if(el.find(&quot;description&quot;).text().indexOf(string) &gt; -1){
+                            sonucSayac++;
+                            $(&quot;#sonuclar&quot;).append('&lt;li class=&quot;post-stub&quot; itemprop=&quot;blogPost&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/BlogPosting&quot;&gt;&lt;a href=&quot;'+el.find(&quot;link&quot;).text()+'&quot; itemprop=&quot;url&quot; title=&quot;Detaylar&quot;&gt;&lt;h4 class=&quot;post-stub-title&quot; itemprop=&quot;name&quot;&gt;'+el.find(&quot;title&quot;).text()+'&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;');    
+                        }
+                    });
+
+if(sonucSayac == 0){
+                $(&quot;#sonuclar&quot;).append('&lt;li class=&quot;post-stub&quot;&gt;Sonuç bulunamadı&lt;/li&gt;');
+            }
+                }   
+            });
+
+}
+
+
+        &lt;/script&gt;
+</code></pre>
+
+<p>Bununla birlikte bir de input&rsquo;a ihtiyaımız var, bu input&rsquo;u header&rsquo;da uygun gördüğüm bi yere ekliyorum, eklediğim arama formu şu şekilde</p>
+
+<pre><code>&lt;form id=&quot;search&quot; method=&quot;get&quot; action=&quot;/sayfa/search/&quot;&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;kelime&quot; id=&quot;kelime&quot; placeholder=&quot;Arama&quot;/&gt;
+                            &lt;/form&gt;
+</code></pre>
+
+<p>Sonrasında komut satırından yeni bir sayfa oluşturmalıyım,
+    hugo new sayfa/search.md</p>
+
+<p>Bu oluşturduğum sayfaya ise sadece ul ekliyorum,</p>
+
+<pre><code>---
+title: &quot;Arama&quot;
+date: 2017-08-30T14:21:07+03:00
+description: &quot;Arama Sayfası&quot;
+---
+
+&lt;ol class=&quot;post-list&quot; id=&quot;sonuclar&quot;&gt;
+
+&lt;/ol&gt;
+</code></pre>
+
+<p>ve artık tamamlandı. Hugo sitemin bir arama motoru var ! :)</p>
+
+      </article>
+
+      <p class="post-meta">Etiketler:&nbsp;
+        
+            
+            <a href="https://phpanaliz.com//tags/search">search</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/hugo">hugo</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/firebase">firebase</a>
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="https://phpanaliz.com/index.xml"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2017<br>
+            Her Hakkı Uğur KAZDAL'a aittir.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://phpanaliz.com/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101420301-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
+

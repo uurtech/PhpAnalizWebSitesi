@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Img on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/img/</link>
+    <language>tr</language>
+    
+    
+    <updated>Fri, 22 Sep 2017 23:16:45 &#43;03</updated>
+    
+    <item>
+      <title>Mac&#39;te img&#39;yi iso formatına çevirmek</title>
+      <link>https://phpanaliz.com/post/img-to-iso-mac/</link>
+      <pubDate>Fri, 22 Sep 2017 23:16:45 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/img-to-iso-mac/</guid>
+      <description>MacOS kullanırken bazı durumlarda acil terminal araçlarına ihtiyaç olabiliyor. Ben sanallaştırma yaparken, indirdiğim img dosyasını acilen iso&amp;rsquo;ya çevirme ihtiyacı hissettim, dahili olan araçlarla yaptığımda paket hataları vb. ile karşılaştım, araştırdığımda ise kullananların memnun kaldığı bir araç ile karşılaştım; CCD2iso.
+Bu aracı img dosyamı iso yapmak için kullandım ve, kesinlikle başarılı ve bir o kadar da hızlı.
+Hemen ccd2iso&amp;rsquo;nun kurulumuna geçelim,
+terminali açıyoruz. Eğer brew sizlerde kurulu ise, direk ikinci komuta geçebilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Kitap on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/kitap/</link>
+    <language>tr</language>
+    
+    
+    <updated>Thu, 21 Sep 2017 01:24:43 &#43;03</updated>
+    
+    <item>
+      <title>Benchmark Testleri</title>
+      <link>https://phpanaliz.com/post/benchmark-testleri/</link>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/benchmark-testleri/</guid>
+      <description>Bu yazıda PHP&amp;rsquo;i şu dili böyle döver falan gibi saçma şeyler olmayacak, her yazılım dilinin başka bir dile üstün olduğu alanlar mevcuttur ki 2017 yılında Cache sistemlerinin olması nedeniyle doğru yapılan işlerde dillerin pek önemi kalmıyor. Biz benchmark testlerine bakıp PHP&amp;rsquo;nin performans olarak ileride olduğu noktaları inceleyelim,
+İlk olarak, Script dilleri ile ilgili karşılaştırmasına bakalım
+Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakalım,
+ PHP : 0.281 Ruby : 0.684 Python : 1.</description>
+    </item>
+    
+  </channel>
+</rss>
+

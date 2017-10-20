@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Tinypng on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/tinypng/</link>
+    <language>tr</language>
+    
+    
+    <updated>Thu, 12 Oct 2017 21:16:07 &#43;03</updated>
+    
+    <item>
+      <title>Php ile Resim Compress</title>
+      <link>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</link>
+      <pubDate>Thu, 12 Oct 2017 21:16:07 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</guid>
+      <description>PHP&amp;lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.
+Müşterilerimize web sitelerini verirken, tinypng üzerinden resim sıkıştırıp yayınlıyoruz, Tinypng&amp;rsquo;nin Photoshop eklentisi ise sadece Windows&amp;rsquo;ta çalıştığı için satın almamız bir şey ifade etmeyeceğinden, dizindeki resimleri sıkıştırıp başka bir klasöre atan bir script geliştirdim.
+Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsiniz.
+İlk olarak tinypng.com adresine girip ücretsiz developer key talep ediyoruz, şifre bile girmenize gerek yok, gelen e-posta ile login olup developer key&amp;rsquo;i alabilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>
+

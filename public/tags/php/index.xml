@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Php on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/php/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sat, 14 Oct 2017 15:30:58 &#43;03</updated>
+    
+    <item>
+      <title>Php ile Terminalde Emoji Yazdırmak</title>
+      <link>https://phpanaliz.com/post/php-ile-terminalde-emoji-yazdirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-ile-terminalde-emoji-yazdirmak/</guid>
+      <description>PHP ile konsola komut gönderimine bakmıştık, bu sefer konsol üzerinde emoji yazdırmaya bakalım.
+Nerden aklına geldi derseniz, forumlarda baya baya sormuş arkadaşlar, bulunsun istedim.
+Tahmin ettiğiniz gibi yapmamız gereken PHP&amp;rsquo;de komut satırına &amp;ldquo;bu işi sen yap&amp;rdquo; demek.
+Şimdi mevcut sistem üzerindeki komutu çalıştırması için system() methodunu kullanarak emojiyi yazdırmasını sağlayacağız.
+system(&amp;quot;echo \xE2\x98\xA0&amp;quot;);  Gördüğünüz gibi, terminalde ekrana yazı yazdırma komutumuz echo, bu windows tarafında da bu şekilde.
+Peki buradaki bu karakterler ne anlama geliyor.</description>
+    </item>
+    
+    <item>
+      <title>Php Facebook Login Yeni Api</title>
+      <link>https://phpanaliz.com/post/php-facebook-login-yeni-api/</link>
+      <pubDate>Sat, 14 Oct 2017 13:33:21 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-facebook-login-yeni-api/</guid>
+      <description>Facebook&amp;lsquo;un yeni API sürümü ile PHP kullanarak Login sistemi geliştirelim,
+İlk olarak Composer ile Facebook bağlantılarımızı yapmak için gerekli sınıfları indirelim
+composer require facebook/graph-sdk  Şimdi Facebook üzerine dönelim https://developers.facebook.com/apps/ adresine girip Uygulama oluşturuyoruz,
+Local üzerinde çalışıyorsak, local adresimiz de yazmalıyız,
+Facebook üzerinde app oluşturma için hızlı bir video çektim, 
+Şimdi devam edelim
+require_once __DIR__ . &#39;/vendor/autoload.php&#39;; // bu dizini kendinize göre düzenleyin $fb = new \Facebook\Facebook([ &#39;app_id&#39; =&amp;gt; &#39;VİDEODAKİ APP ID&#39;, &#39;app_secret&#39; =&amp;gt; &#39;VİDEODAKİ SECRET&#39;, &#39;default_graph_version&#39; =&amp;gt; &#39;v2.</description>
+    </item>
+    
+    <item>
+      <title>Php Komut Satırı Kodlari Çalıştırmak</title>
+      <link>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</guid>
+      <description>PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&amp;rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
+Sıralayalım
+ escapeshellarg — Bir komutun değiştirge dizgesini önceler escapeshellcmd — Kabuk meta karakterlerini önceler exec — Bir komut çalıştırır passthru — Harici bir programı çalıştırır ve çıktısını ham olarak gösterir proc_close — proc_open tarafından açılmış bir süreci kapatır ve sürecin çıkış kodunu döndürür proc_get_status — proc_open tarafından açılmış bir süreç hakkında bilgi döndürür proc_nice — Çalışan sürecin önceliğini değiştirir proc_open — Bir komutu çalıştırır ve G/Ç için bir dosya tanıtıcı açar proc_terminate — proc_open ile açılmış bir süreci öldürür shell_exec — Komutu kabukta çalıştırır ve çıktısının tamamını bir dizge olarak döndürür system — Belirtilen harici komutu çalıştırır ve çıktısını gösterir  Bunların arasında system fonksiyonu C dilinde de mevcut.</description>
+    </item>
+    
+    <item>
+      <title>Php ile CPP kodları çalıştırmak</title>
+      <link>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</link>
+      <pubDate>Fri, 13 Oct 2017 14:52:13 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</guid>
+      <description>PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
+İlk kurgumuz şu şekilde, C++ ile yazılmış veya yazacağımız bir yapımız var, bunu PHP içerisinde kullanmak istiyoruz. Ne yapmalıyız? Cevap Wrapper kodlamak. PHP&amp;rsquo;nin yazdığımı kodu anlayabilmesi için bir eklenti geliştirmek.
+İkinci kurgumuz, o kadar büyük abartılı değil basit olarak ne yapılabilir.</description>
+    </item>
+    
+    <item>
+      <title>Php ile Resim Compress</title>
+      <link>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</link>
+      <pubDate>Thu, 12 Oct 2017 21:16:07 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</guid>
+      <description>PHP&amp;lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.
+Müşterilerimize web sitelerini verirken, tinypng üzerinden resim sıkıştırıp yayınlıyoruz, Tinypng&amp;rsquo;nin Photoshop eklentisi ise sadece Windows&amp;rsquo;ta çalıştığı için satın almamız bir şey ifade etmeyeceğinden, dizindeki resimleri sıkıştırıp başka bir klasöre atan bir script geliştirdim.
+Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsiniz.
+İlk olarak tinypng.com adresine girip ücretsiz developer key talep ediyoruz, şifre bile girmenize gerek yok, gelen e-posta ile login olup developer key&amp;rsquo;i alabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Php ile Proxy Değiştirme</title>
+      <link>https://phpanaliz.com/post/php-ile-proxy-degistirme/</link>
+      <pubDate>Wed, 11 Oct 2017 10:25:13 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-ile-proxy-degistirme/</guid>
+      <description>PHP uygulaması geliştirirken, özel nedenlerden dolayı proxy değiştirmeye ihtiyacınız olabilir, belki hile geliştiriceksiniz, belki de sisteminizi dış bağlantılarla kontrol edeceksiniz, belki de çok orijnal bir şey için ihtiyacınız var. PHP&amp;rsquo;de proxy değiştirmeye ihtiyacınız olduğunda çok rahat yapabiliyorsunuz. Önemli olan hangi metodla kendi PHP uygulamanıza uyarlamanız,
+İlk örnek CURL ile PHP&amp;rsquo;de proxy değiştirme
+function getUrl($url) { $ch = curl_init(); $timeout = 5; // set to zero for no timeout curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout); curl_setopt ($ch, CURLOPT_URL, $url); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1); curl_setopt($ch, CURLOPT_PROXY, &amp;quot;http://proxy.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark Testleri</title>
+      <link>https://phpanaliz.com/post/benchmark-testleri/</link>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/benchmark-testleri/</guid>
+      <description>Bu yazıda PHP&amp;rsquo;i şu dili böyle döver falan gibi saçma şeyler olmayacak, her yazılım dilinin başka bir dile üstün olduğu alanlar mevcuttur ki 2017 yılında Cache sistemlerinin olması nedeniyle doğru yapılan işlerde dillerin pek önemi kalmıyor. Biz benchmark testlerine bakıp PHP&amp;rsquo;nin performans olarak ileride olduğu noktaları inceleyelim,
+İlk olarak, Script dilleri ile ilgili karşılaştırmasına bakalım
+Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakalım,
+ PHP : 0.281 Ruby : 0.684 Python : 1.</description>
+    </item>
+    
+    <item>
+      <title>Laravel ile 2 Dakika Admin Paneli Kurmak</title>
+      <link>https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/</link>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/</guid>
+      <description>Bu kurulumu yapmanın ne kadar sürdüğüne baktığımda 1.56 dakika olduğunu gördüm. Müşteriniz eğer internet üzerinden satın aldığınız arayüzlerden birini beğenirse bir kaç saatte komple sağlam bir CMS&amp;rsquo;e sahip siteyi sadece giydirme yaparak yayına alabilirsiniz.
+Voyager&amp;rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşturulabiliyor, bu sayede yetenekleri sınırsız. Kullanıcı yetkilendirme işlemi bile panelden rahatlıkla yapılabiliyor ve sizin hiç bir şey ayarlamanıza gerek kalmıyor.
+İlk olarak sinir olacağınız kadar kolay bir kullanımı mevcut, bilgisayarınız laravel kullanımına uygun değilse, hızlıca kurulumlara başlayalım, İlk olarak, XAMPP, WAMP veya MAMP kurmalısınız, benim tavsiyem kesinlikle MAMP.</description>
+    </item>
+    
+    <item>
+      <title>Vhost Script Kullanımı</title>
+      <link>https://phpanaliz.com/post/vhosts-script-kullanimi/</link>
+      <pubDate>Mon, 28 Aug 2017 23:14:26 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/vhosts-script-kullanimi/</guid>
+      <description>MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
+php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.
+Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim</description>
+    </item>
+    
+  </channel>
+</rss>
+

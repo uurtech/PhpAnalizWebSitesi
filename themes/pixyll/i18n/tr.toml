@@ -1,0 +1,20 @@
+[about]
+other = "Hakkımda"
+
+[contact]
+other = "İletişim"
+
+[tags]
+other = "Etiketler"
+
+[search]
+other = "Arama"
+
+[written]
+other = "Yazan"
+
+[newer]
+other = "Yeni"
+
+[older]
+other = "Eski"

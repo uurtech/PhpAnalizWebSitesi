@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Plus on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/plus/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sat, 16 Sep 2017 20:47:03 &#43;03</updated>
+    
+    <item>
+      <title>Google Plus Comments Ekleme</title>
+      <link>https://phpanaliz.com/post/google-plus-comments-ekleme/</link>
+      <pubDate>Sat, 16 Sep 2017 20:47:03 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/google-plus-comments-ekleme/</guid>
+      <description>Web sitenize Google plus&amp;rsquo;a ait yorum eklentisini kurmak istiyorsunuz. Bencede haklısınız. Facebook Comments biraz hantal ve bazı firmalar facebook&amp;rsquo;a engel koyduğunda kişiler sitenizin açılışındaki yavaşlığın sitenizden kaynaklandığını düşünüşüp sitenizle ilgili olumsuz izlenimlere kapılacaklar.
+Bu nedenle ben siteme Google Plus Comments eklemeyi tercih ediyorum. Nasıl mı ?
+&amp;lt;script src=&amp;quot;https://apis.google.com/js/plusone.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;div id=&amp;quot;comments&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; gapi.comments.render(&#39;comments&#39;, { href: window.location, width: &#39;700&#39;, first_party_property: &#39;BLOGGER&#39;, view_type: &#39;FILTERED_POSTMOD&#39; }); &amp;lt;/script&amp;gt;  Bu kadar da kolay :)</description>
+    </item>
+    
+  </channel>
+</rss>
+

@@ -1,0 +1,15 @@
+<a href="https://phpanaliz.com/tags/">Konular</a>
+<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/page/hakkimda/">{{ i18n "about" }}</a>
+<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/page/iletisim/">{{ i18n "contact" }}</a>
+<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/page/gizlilik/">{{ i18n "privacy" }}</a>
+{{- if .Site.IsMultiLingual -}}
+{{- range $lang := .Site.Languages -}}
+{{- if ne $.Site.Language $lang -}}
+<a href="/{{ $lang }}">{{ $lang }}</a>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+<form id="search" method="get" action="/page/search/">
+    <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
+    </form>
+</form>

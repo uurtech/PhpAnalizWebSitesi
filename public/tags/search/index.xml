@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Search on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/search/</link>
+    <language>tr</language>
+    
+    
+    <updated>Tue, 29 Aug 2017 23:59:56 &#43;03</updated>
+    
+    <item>
+      <title>Jquery ile Hugo Search Ekleme</title>
+      <link>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</link>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</guid>
+      <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&amp;rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&amp;rsquo;a içeriklerimin gönderilmesi gerek.</description>
+    </item>
+    
+  </channel>
+</rss>
+

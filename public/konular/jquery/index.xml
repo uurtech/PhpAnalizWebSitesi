@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Jquery on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/konular/jquery/</link>
+    <language>tr</language>
+    
+    
+    <updated>Wed, 18 Oct 2017 07:23:26 &#43;03</updated>
+    
+    <item>
+      <title>Cloudflare Jquery Sorunu</title>
+      <link>https://phpanaliz.com/post/cloudflare-jquery-sorunu/</link>
+      <pubDate>Wed, 18 Oct 2017 07:23:26 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/cloudflare-jquery-sorunu/</guid>
+      <description>Construct 2 ile oyun geliştirdik, Cloudflare premium hesabını mevcut adresimize yönlendirdik ancak Safari haricindeki tarayıcılarda oyun çalışmıyordu.
+Saatlerce oyun ile ilgili sorun olduğunu düşündükten sonra sorunun cache ile ilgili olduğunu tespit edip bu yönde çalışmaya başladık. Oyun sayfamızdaki elementlerin sorunsuz yüklenmesi ve Safari&amp;rsquo;de çalışmasının sonunda, oyunu çağıran kodlarımıza bir bakmak istedik ve gördük ki, document.ready fonksiyonu çalıştırılmıyor ancak bu konuda herhangi bir hatanın konsolda olmaması bizlere bu zamanı kaybettirdi.
+Dikkatimize çarpan şey ise jquery&amp;rsquo;nin sayfa içerisine alınırken tipinin değiştirilmesi yani şu şekilde,</description>
+    </item>
+    
+    <item>
+      <title>Jquery ile Hugo Search Ekleme</title>
+      <link>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</link>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</guid>
+      <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&amp;rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&amp;rsquo;a içeriklerimin gönderilmesi gerek.</description>
+    </item>
+    
+  </channel>
+</rss>
+

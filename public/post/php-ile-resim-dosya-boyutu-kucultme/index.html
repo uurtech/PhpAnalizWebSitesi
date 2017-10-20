@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Php ile Resim Compress - PHP Analiz - Uğur KAZDAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PHP Analiz - Php ile ilgili garip içeriklere sahip orjinal site.">
+  <meta name="author" content="Uğur KAZDAL">
+  <meta name="keywords" content="php, html5, jquery,hugo,go lang">
+  <link rel="canonical" href="https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3789690953881934",
+      enable_page_level_ads: true
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://phpanaliz.com//css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="https://phpanaliz.com/" class="site-title">PHP Analiz - Uğur KAZDAL</a>
+      <nav class="site-nav right">
+      <a href="https://phpanaliz.com/tags/">Konular</a>
+<a href="https://phpanaliz.com//page/hakkimda/">Hakkımda</a>
+<a href="https://phpanaliz.com//page/iletisim/">İletişim</a>
+<a href="https://phpanaliz.com//page/gizlilik/">Gizlilik</a><form id="search" method="get" action="/page/search/">
+    <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
+    </form>
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Php ile Resim Compress</h1>
+       
+        
+      </div>
+
+      <article class="post-content">
+      <p><strong><em>PHP</em></strong>&lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.</p>
+
+<p>Müşterilerimize web sitelerini verirken, tinypng üzerinden resim sıkıştırıp yayınlıyoruz, Tinypng&rsquo;nin Photoshop eklentisi ise sadece Windows&rsquo;ta çalıştığı için satın almamız bir şey ifade etmeyeceğinden, dizindeki resimleri sıkıştırıp başka bir klasöre atan bir script geliştirdim.</p>
+
+<p>Scripti github üzerinden geliştirebilirsiniz <a href="https://github.com/uurtech/tinypng-php-compresser">buradaki</a> adresten erişebilirsiniz.</p>
+
+<p>İlk olarak <a href="http://tinypng.com">tinypng.com</a> adresine girip ücretsiz developer key talep ediyoruz, şifre bile girmenize gerek yok, gelen e-posta ile login olup developer key&rsquo;i alabilirsiniz.</p>
+
+<p>Sonrasında composer ile Tinypng kütüphanesini projemize dahil ediyoruz.</p>
+
+<pre><code>composer require tinify/tinify
+</code></pre>
+
+<p>Gerekli dosyalar indikten sonra php kodumuzu aşağıdaki gibi yazıyoruz</p>
+
+<pre><code>require_once(&quot;vendor/autoload.php&quot;);
+\Tinify\setKey(&quot;YOUR_API_KEY&quot;);
+$images = glob('images/*.{jpeg,jpg,png}', GLOB_BRACE);
+var_dump($images);
+if (!file_exists('compressed')) {
+    mkdir('compressed', 0777, true);
+}
+foreach($images as $image){
+    $source = \Tinify\fromFile($image);
+    $source-&gt;toFile(str_replace(&quot;images&quot;,&quot;compressed&quot;,$image));
+}
+</code></pre>
+
+<p>Bu scripti çalıştırdığınız dizinde images adlı klasördeki her resmi alıp sıkıştırıp compressed klasörüne atacaktır. Tinypng çok başarılı sıkıştırma işlemi yaparken ayda 500 adet kullanımı ücretsiz veriyor.</p>
+
+<p>Freelance işlerinizde kullanıp, site açılış performansını etkilyecek dosya boyutlarıyla müşterinizi etkliyebilirsiniz.</p>
+
+      </article>
+
+      <p class="post-meta">Etiketler:&nbsp;
+        
+            
+            <a href="https://phpanaliz.com//tags/php">php</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/tinypng">tinypng</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/api">api</a>
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="https://phpanaliz.com/index.xml"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2017<br>
+            Her Hakkı Uğur KAZDAL'a aittir.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://phpanaliz.com/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101420301-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
+

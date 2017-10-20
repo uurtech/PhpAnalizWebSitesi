@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Uğur KAZDAL</copyright>
-    <lastBuildDate>Sat, 14 Oct 2017 15:30:58 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 18 Oct 2017 07:23:26 +0300</lastBuildDate>
     
 	<atom:link href="https://phpanaliz.com/yazi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloudflare Jquery Sorunu</title>
+      <link>https://phpanaliz.com/yazi/cloudflare-jquery-sorunu/</link>
+      <pubDate>Wed, 18 Oct 2017 07:23:26 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/cloudflare-jquery-sorunu/</guid>
+      <description>Construct 2 ile oyun geliştirdik, Cloudflare premium hesabını mevcut adresimize yönlendirdik ancak Safari haricindeki tarayıcılarda oyun çalışmıyordu.
+Saatlerce oyun ile ilgili sorun olduğunu düşündükten sonra sorunun cache ile ilgili olduğunu tespit edip bu yönde çalışmaya başladık. Oyun sayfamızdaki elementlerin sorunsuz yüklenmesi ve Safari&amp;rsquo;de çalışmasının sonunda, oyunu çağıran kodlarımıza bir bakmak istedik ve gördük ki, document.ready fonksiyonu çalıştırılmıyor ancak bu konuda herhangi bir hatanın konsolda olmaması bizlere bu zamanı kaybettirdi.
+Dikkatimize çarpan şey ise jquery&amp;rsquo;nin sayfa içerisine alınırken tipinin değiştirilmesi yani şu şekilde,</description>
+    </item>
     
     <item>
       <title>Php ile Terminalde Emoji Yazdırmak</title>

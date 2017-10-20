@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Hosting on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/hosting/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sat, 08 Jul 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Firebase Hosting Kullanımı</title>
+      <link>https://phpanaliz.com/post/firebase-hosting-kullanimi/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 UTC</pubDate>
+      
+      <guid>https://phpanaliz.com/post/firebase-hosting-kullanimi/</guid>
+      <description>Firebase&amp;rsquo;in sanırım en sevdiğim özelliği Hosting hizmeti. Firebase Hosting kullanırken hem ücretsiz SSL hem de en hızlı sunucu performansını alırken, bir de maksimum güvenlik ile işlerinize daha fazla vakit ayırabiliyorsunuz.
+Firebase&amp;rsquo;in Hosting hizmeti ile ilgili kullanımını ve detaylarını anlattığım videoyu izleyebilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>
+

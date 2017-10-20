@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Komut Satiri on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/konular/komut-satiri/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sat, 14 Oct 2017 12:38:47 &#43;03</updated>
+    
+    <item>
+      <title>Php Komut Satırı Kodlari Çalıştırmak</title>
+      <link>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</guid>
+      <description>PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&amp;rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
+Sıralayalım
+ escapeshellarg — Bir komutun değiştirge dizgesini önceler escapeshellcmd — Kabuk meta karakterlerini önceler exec — Bir komut çalıştırır passthru — Harici bir programı çalıştırır ve çıktısını ham olarak gösterir proc_close — proc_open tarafından açılmış bir süreci kapatır ve sürecin çıkış kodunu döndürür proc_get_status — proc_open tarafından açılmış bir süreç hakkında bilgi döndürür proc_nice — Çalışan sürecin önceliğini değiştirir proc_open — Bir komutu çalıştırır ve G/Ç için bir dosya tanıtıcı açar proc_terminate — proc_open ile açılmış bir süreci öldürür shell_exec — Komutu kabukta çalıştırır ve çıktısının tamamını bir dizge olarak döndürür system — Belirtilen harici komutu çalıştırır ve çıktısını gösterir  Bunların arasında system fonksiyonu C dilinde de mevcut.</description>
+    </item>
+    
+  </channel>
+</rss>
+

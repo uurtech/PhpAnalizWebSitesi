@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Go Lang on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/go-lang/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sun, 09 Jul 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Hugo Datetime Degistirme</title>
+      <link>https://phpanaliz.com/post/hugo-datetime-degistirme/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 UTC</pubDate>
+      
+      <guid>https://phpanaliz.com/post/hugo-datetime-degistirme/</guid>
+      <description>Bilmiyorsanız hemen söyliyeyim, Hugo, Go Lang ile geliştirilmiş bir tool, web sitesinin gohugo olması buradan geliyor. Hugo sistemini kurduğunuzda tema da gözünüze batan ilk şeylerden biri, tarihlerin amerikan stili olması, çünkü alışık değiliz !
+Tema üzerinde .Site.Params.DateForm gibi bir tanımlama var ise, config dosyanızdan, yok ise doğrudan oraya da yazabilirsiniz. İlk olarak Config dosyasına DateForm diye bir değişken tanımlayalım,
+ baseURL = &#34;https://mobilsihirbazi.com/&#34; languageCode = &#34;tr-TR&#34; title = &#34;Mobil Sihirbazı - ios ve android&#34;</description>
+    </item>
+    
+  </channel>
+</rss>
+

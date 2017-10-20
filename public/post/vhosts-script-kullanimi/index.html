@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vhost Script Kullanımı - PHP Analiz - Uğur KAZDAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PHP Analiz - Php ile ilgili garip içeriklere sahip orjinal site.">
+  <meta name="author" content="Uğur KAZDAL">
+  <meta name="keywords" content="php, html5, jquery,hugo,go lang">
+  <link rel="canonical" href="https://phpanaliz.com/post/vhosts-script-kullanimi/">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3789690953881934",
+      enable_page_level_ads: true
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://phpanaliz.com//css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="https://phpanaliz.com/" class="site-title">PHP Analiz - Uğur KAZDAL</a>
+      <nav class="site-nav right">
+      <a href="https://phpanaliz.com/tags/">Konular</a>
+<a href="https://phpanaliz.com//page/hakkimda/">Hakkımda</a>
+<a href="https://phpanaliz.com//page/iletisim/">İletişim</a>
+<a href="https://phpanaliz.com//page/gizlilik/">Gizlilik</a><form id="search" method="get" action="/page/search/">
+    <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
+    </form>
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Vhost Script Kullanımı</h1>
+       
+        
+      </div>
+
+      <article class="post-content">
+      <p><strong><em>MAMP, XAMPP veya WAMP</em></strong> ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum</p>
+
+<pre><code>php vhosts.php
+DİZİN
+localDomain.dev
+</code></pre>
+
+<p>Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.</p>
+
+<p>Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim</p>
+
+<pre><code>&lt;?php
+$i = 0;
+$infos = array();
+while($f = fgets(STDIN)){
+    $i++;
+    $infos[] = str_replace(&quot;\n&quot;,&quot;&quot;,$f);
+    if($i == 2){
+        break;
+    }
+}
+if(count($infos) &gt; 2) die(&quot;pls.&quot;);
+$string = '&lt;VirtualHost *:80&gt;
+ServerAdmin email@email.com
+DocumentRoot &quot;C:/xampp/htdocs/'.$infos[0].'&quot;
+ServerName '.$infos[1].'
+ServerAlias '.$infos[1].'
+&lt;/VirtualHost&gt;
+';
+$local_link = &quot;127.0.0.1            &quot;.$infos[1];
+file_put_contents(&quot;C:/xampp/apache/conf/extra/httpd-vhost.conf&quot;,$string,FILE_APPEND);
+file_put_contents(&quot;C:/Windows/System32/drivers/etc/hosts&quot;,$local_link,FILE_APPEND);
+?&gt;
+</code></pre>
+
+<p>Laravel projelerim için dizini belirtirken <strong><em>projeAdi/public</em></strong> diyerek yapabiliyorum.
+Bununla birlikte kullandığınız işletim sistemine göre, aşağıdaki iki satırı düzenleyin</p>
+
+<pre><code>file_put_contents(&quot;C:/xampp/apache/conf/extra/httpd-vhost.conf&quot;,$string,FILE_APPEND);
+file_put_contents(&quot;C:/Windows/System32/drivers/etc/hosts&quot;,$local_link,FILE_APPEND);
+</code></pre>
+
+<p>Bunlarla birlikte Apache yapılandırma dosyanızda bu belirtilen vhosts dosyasının Include edildiğinden emin olun.</p>
+
+<p>Xampp için <strong><em>DISK\xampp\apache\conf\httpd.conf</em></strong>
+MAMP için <strong><em>DISK\MAMP\conf\apache\httpd.conf</em></strong>
+WAMPP için <strong><em>C:\wamp\bin\Apache2.4\conf\httpd.conf</em></strong></p>
+
+<p>Dosyalarını açın ve içerisinde Vhosts diye aratın,</p>
+
+<pre><code>#Include conf/extra/httpd-vhosts.conf
+</code></pre>
+
+<p>benzer bir satır olacak (tabi ki işletim sisteminize ve kullandığınız pakete göre değişecektir), bu satırın başındaki # işaretini kaldırın ve XAMPP/MAMP/WAMP ne kullanıyorsanız, içerisindeki Apache&rsquo;yi yeniden başlatın.</p>
+
+<p>Bu script için Github Repo oluşturmaya gerek yoktu ancak, popüler programlama dilleri içinde benzer scriptler yazılabilir, Repo&rsquo;ya gitmek için <a href="https://github.com/uurtech/vhosts-creator-script" target="_blank"><a href="https://github.com/uurtech/vhosts-creator-script">https://github.com/uurtech/vhosts-creator-script</a></a> bağlantısını ziyaret edebilirsiniz.</p>
+
+      </article>
+
+      <p class="post-meta">Etiketler:&nbsp;
+        
+            
+            <a href="https://phpanaliz.com//tags/php">php</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/github">github</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/script">script</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/vhost">vhost</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/vhost%20kullan%c4%b1m%c4%b1">vhost kullanımı</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/local%20domain">local domain</a>
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="https://phpanaliz.com/index.xml"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2017<br>
+            Her Hakkı Uğur KAZDAL'a aittir.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://phpanaliz.com/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101420301-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
+

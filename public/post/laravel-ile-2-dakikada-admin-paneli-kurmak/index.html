@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Laravel ile 2 Dakika Admin Paneli Kurmak - PHP Analiz - Uğur KAZDAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PHP Analiz - Php ile ilgili garip içeriklere sahip orjinal site.">
+  <meta name="author" content="Uğur KAZDAL">
+  <meta name="keywords" content="php, html5, jquery,hugo,go lang">
+  <link rel="canonical" href="https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3789690953881934",
+      enable_page_level_ads: true
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://phpanaliz.com//css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="https://phpanaliz.com/" class="site-title">PHP Analiz - Uğur KAZDAL</a>
+      <nav class="site-nav right">
+      <a href="https://phpanaliz.com/tags/">Konular</a>
+<a href="https://phpanaliz.com//page/hakkimda/">Hakkımda</a>
+<a href="https://phpanaliz.com//page/iletisim/">İletişim</a>
+<a href="https://phpanaliz.com//page/gizlilik/">Gizlilik</a><form id="search" method="get" action="/page/search/">
+    <input type="text" name="kelime" id="kelime" placeholder="Arama"/>
+    </form>
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Laravel ile 2 Dakika Admin Paneli Kurmak</h1>
+       
+        
+      </div>
+
+      <article class="post-content">
+      <p>Bu kurulumu yapmanın ne kadar sürdüğüne baktığımda 1.56 dakika olduğunu gördüm. Müşteriniz eğer internet üzerinden satın aldığınız arayüzlerden birini beğenirse bir kaç saatte komple sağlam bir CMS&rsquo;e sahip siteyi sadece giydirme yaparak yayına alabilirsiniz.</p>
+
+<p>Voyager&rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşturulabiliyor, bu sayede yetenekleri sınırsız. Kullanıcı yetkilendirme işlemi bile panelden rahatlıkla yapılabiliyor ve sizin hiç bir şey ayarlamanıza gerek kalmıyor.</p>
+
+<p>İlk olarak sinir olacağınız kadar kolay bir kullanımı mevcut, bilgisayarınız laravel kullanımına uygun değilse, hızlıca kurulumlara başlayalım,
+İlk olarak, <strong><em>XAMPP</em></strong>, <strong><em>WAMP</em></strong> veya <strong><em>MAMP</em></strong> kurmalısınız, benim tavsiyem kesinlikle <strong><em>MAMP</em></strong>.</p>
+
+<p>Bu programları kurarken herhangi bir ayarlamaya şuan ihtiyacımız olmadığı için kurulumu anlatmayı gerek duymuyorum. Bizim odak noktamız şuan <strong><em>Laravel</em></strong> ve başarılı bir yönetim paketi olan <strong><em>Voyager</em></strong></p>
+
+<p>Laravel kurulumu için bir PHP geliştiricinin olmazsa olmazı <strong><em>Composer</em></strong>&lsquo;a da ihtiyacımız var, Eğer bilgisayarınızda dahili bir PHP versiyonu var ise, PATH ayarı yapmadan çalışacağından aşağıdaki komutlarla Composer&rsquo;ı kurabilirsiniz,</p>
+
+<pre><code>php -r &quot;copy('https://getcomposer.org/installer', 'composer-setup.php');&quot;
+php -r &quot;if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;&quot;
+php composer-setup.php
+php -r &quot;unlink('composer-setup.php');&quot;
+</code></pre>
+
+<p>Örneğin Mac cihazımda her zaman PHP mevcut idi. Devam edelim,</p>
+
+<p><em>Buraya kadar herhangi bir sorun yaşadıysanız lütfen yaşadığınız sorunu paylaşın hızlıca çözümleyelim.</em></p>
+
+<p>Komut Satırımızı açıyoruz,</p>
+
+<pre><code>composer create-project laravel/laravel ProjeAdi &quot;5.3.*&quot;
+</code></pre>
+
+<p>Burada fark ettiğiniz üzere Laravel&rsquo;in 5.3 sürümünü tercih ettik, sebebi ise, Voyager şuan en sorunsuz şekilde Laravel 5.3&rsquo;te çalışıyor.</p>
+
+<p>Laravel kurulumunu yaptıktan sonra, <em>.env</em> dosyamıza girip, MysQL bağlantılarımızı yapıyoruz</p>
+
+<pre><code>DB_HOST=localhost
+DB_DATABASE=veritabanı
+DB_USERNAME=kullanıcı
+DB_PASSWORD=şifre
+</code></pre>
+
+<p>Bu aşamadan önce mutlaka veritabanınızı PhpMyAdmin üzerinden oluşturmuş olmalısınız.</p>
+
+<p>Laravel kurulumu çalıştıktan sonra <em>localhost/ProjeAdi/public</em> adresine erişimimiz sorunsuz olmalı. Yerel cihazınızda Domain kullanımı için vhost kullanımını <a href="https://phpanaliz.com/yazi/vhosts-script-kullanimi/">burada</a> bulabilirsiniz.</p>
+
+<p>Tekrar komut satırımıza geri dönüyoruz, projemizin dizinine giriyoruz</p>
+
+<pre><code>cd ProjeAdi
+composer require tcg/voyager
+</code></pre>
+
+<p>Şimdi, Laravel&rsquo;imizin Voyager&rsquo;ı tanıyabilmesini sağlayalım, <em>Config-&gt;app.php</em> içerisine Provider ekliyoruz,</p>
+
+<pre><code>'providers' =&gt; [
+    // Buralar Laravel'in kendi sağlayıcı sınıfları
+
+
+    TCG\Voyager\VoyagerServiceProvider::class,
+
+
+    // Buradan itibaren de servis sağlayıcı sınıflar
+],
+</code></pre>
+
+<p>Artık hazırız, yapmamız gereken komut satırından proje dizinine gelip kurulumu başlatmak, dilerseniz Dummy Data ile de kurulum yapabilirsiniz, ancak ben tertemiz bir kurulumu tercih ediyorum,</p>
+
+<pre><code>php artisan voyager:install
+
+//eğer dummy data isterseniz,
+php artisan voyager:install --with-dummy
+</code></pre>
+
+<p>Kurulumu yaptıktan sonra admin eklemeniz gerekiyor,</p>
+
+<pre><code>php artisan voyager:admin your@email.com --create
+</code></pre>
+
+<p>Evet artık kuruldu, <em>localhost/ProjeAdi/public/admin</em> veya <em>localhost/ProjeAdi/public/index.php/admin</em> üzerinden erişim sağlayabilirsiniz. Buradaki index.php&rsquo;nin eklenmesi kuracağınız Apache2 paketinin varsayılan ayarlarından kaynaklanıyor.</p>
+
+<p>Sizlere tavsiyem <a href="https://phpanaliz.com/yazi/vhosts-script-kullanimi/">vhosts</a> ile yerel domain kullanmanız.</p>
+
+      </article>
+
+      <p class="post-meta">Etiketler:&nbsp;
+        
+            
+            <a href="https://phpanaliz.com//tags/laravel">laravel</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/php">php</a>
+        
+            ,&nbsp;
+            <a href="https://phpanaliz.com//tags/voyager">voyager</a>
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="https://phpanaliz.com/index.xml"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2017<br>
+            Her Hakkı Uğur KAZDAL'a aittir.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://phpanaliz.com/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101420301-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
+

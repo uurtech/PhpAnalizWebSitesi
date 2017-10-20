@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Firebase on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/firebase/</link>
+    <language>tr</language>
+    
+    
+    <updated>Tue, 29 Aug 2017 23:59:56 &#43;03</updated>
+    
+    <item>
+      <title>Jquery ile Hugo Search Ekleme</title>
+      <link>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</link>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</guid>
+      <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&amp;rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&amp;rsquo;a içeriklerimin gönderilmesi gerek.</description>
+    </item>
+    
+    <item>
+      <title>Firebase Hosting Üzerine Blog Kurmak</title>
+      <link>https://phpanaliz.com/post/firebase-hosting-uzerine-blog-kurmak/</link>
+      <pubDate>Tue, 11 Jul 2017 18:50:23 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/firebase-hosting-uzerine-blog-kurmak/</guid>
+      <description>Firebase Hosting üzerine blog kurmak, evet, biraz dolaylı olacak ancak, hugo (Go ile yazılmış bir sistem) ile bunu maksimum performans ve güvenlikle firebase&amp;rsquo;e uygun şekilde blog kurabiliyoruz.
+Firebase hosting hesabınıza Hugo ile blog kurmak istiyorsanız ,
+ </description>
+    </item>
+    
+    <item>
+      <title>Facebook Comments Ekleme</title>
+      <link>https://phpanaliz.com/post/facebook-comment-ekleme/</link>
+      <pubDate>Tue, 11 Jul 2017 07:59:41 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/facebook-comment-ekleme/</guid>
+      <description>Hugo ile Firebase hosting üzerine kurduğumuz sitemize Facebook Comments eklemek istiyorsunuz, ancak pluginler vs uğraşmak yerine bu işi basit şekilde çözmeye niyetlisiniz, bu basit olan şey aslında 30 saniye sürerken 13 dakika da anca anlatabildim :) Buyrun
+ </description>
+    </item>
+    
+    <item>
+      <title>Firebase Domain Ekleme</title>
+      <link>https://phpanaliz.com/post/firebase-domain-ekleme/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 UTC</pubDate>
+      
+      <guid>https://phpanaliz.com/post/firebase-domain-ekleme/</guid>
+      <description>Firebase&amp;rsquo;in bizlere sunduğu ücretsiz hizmetler arasında Firebase Hosting&amp;rsquo;de bulunuyor. Google&amp;rsquo;ın bu ücretsiz hosting hizmetinden yararlanmak çok kolay iken, unutmamamız gereken bir şey bunuyor. Firebase Hosting sadece dosyaları barındırır ve tarayıcıya gönderir. Kısaca Wordpress vb. gibi sistemler kurulamaz. Biz Firebase&amp;rsquo;e blog kurma işlemine bu adreste inceliyor olacağız. Firebase Hosting üzerine nasıl domain eklenir görmek istiyorsanız, videoyu izleyebilirsiniz. 
+ </description>
+    </item>
+    
+    <item>
+      <title>Firebase Hosting Kullanımı</title>
+      <link>https://phpanaliz.com/post/firebase-hosting-kullanimi/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 UTC</pubDate>
+      
+      <guid>https://phpanaliz.com/post/firebase-hosting-kullanimi/</guid>
+      <description>Firebase&amp;rsquo;in sanırım en sevdiğim özelliği Hosting hizmeti. Firebase Hosting kullanırken hem ücretsiz SSL hem de en hızlı sunucu performansını alırken, bir de maksimum güvenlik ile işlerinize daha fazla vakit ayırabiliyorsunuz.
+Firebase&amp;rsquo;in Hosting hizmeti ile ilgili kullanımını ve detaylarını anlattığım videoyu izleyebilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>
+

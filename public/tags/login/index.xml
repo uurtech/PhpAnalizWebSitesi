@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Login on PHP Analiz - Uğur KAZDAL </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://phpanaliz.com/tags/login/</link>
+    <language>tr</language>
+    
+    
+    <updated>Sat, 14 Oct 2017 13:33:21 &#43;03</updated>
+    
+    <item>
+      <title>Php Facebook Login Yeni Api</title>
+      <link>https://phpanaliz.com/post/php-facebook-login-yeni-api/</link>
+      <pubDate>Sat, 14 Oct 2017 13:33:21 &#43;03</pubDate>
+      
+      <guid>https://phpanaliz.com/post/php-facebook-login-yeni-api/</guid>
+      <description>Facebook&amp;lsquo;un yeni API sürümü ile PHP kullanarak Login sistemi geliştirelim,
+İlk olarak Composer ile Facebook bağlantılarımızı yapmak için gerekli sınıfları indirelim
+composer require facebook/graph-sdk  Şimdi Facebook üzerine dönelim https://developers.facebook.com/apps/ adresine girip Uygulama oluşturuyoruz,
+Local üzerinde çalışıyorsak, local adresimiz de yazmalıyız,
+Facebook üzerinde app oluşturma için hızlı bir video çektim, 
+Şimdi devam edelim
+require_once __DIR__ . &#39;/vendor/autoload.php&#39;; // bu dizini kendinize göre düzenleyin $fb = new \Facebook\Facebook([ &#39;app_id&#39; =&amp;gt; &#39;VİDEODAKİ APP ID&#39;, &#39;app_secret&#39; =&amp;gt; &#39;VİDEODAKİ SECRET&#39;, &#39;default_graph_version&#39; =&amp;gt; &#39;v2.</description>
+    </item>
+    
+  </channel>
+</rss>
+

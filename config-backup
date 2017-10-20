@@ -1,0 +1,60 @@
+baseurl = "https://phpanaliz.com/"
+title = "PHP Analiz - PHP Geliştirme"
+theme = "hugo-theme-pixyll-master"
+languageCode = "tr-TR"
+copyright = "Uğur KAZDAL"
+googleAnalytics = "UA-101420301-2"
+DefaultContentLanguage = "tr"
+pluralizelisttitles = false
+[Author]
+    name = "Uğur KAZDAL"
+    profile = "https://plus.google.com/114180123448645975351"
+
+[Taxonomies]
+    tag = "etiketler"
+    category = "Kategori"
+
+
+[Params]
+    intro = true
+    headline = "PHP Analiz"
+    description = "İşimiz Gücümüz PHP"
+    github = "https://github.com/uurtech"
+    gplus = "https://plus.google.com/114180123448645975351"
+    twitter = "https://twitter.com/phpanaliz"
+    email = "kazdal.ugur@1ki3.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    dateFormat = "02/01/2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/yazi"
+    weight = 1
+    
+[[menu.main]]
+    name = "Kodlar"
+    url = "https://github.com/uurtech"
+    weight = 2
+    target = "new"
+[[menu.main]]
+    name = "Hakkımda"
+    url = "/sayfa/hakkimda"
+    weight = 3
+    
+[[menu.main]]
+    name = "İletişim"
+    url = "/sayfa/iletisim/"
+    weight = 4
+
+[[menu.main]]
+    name = "Gizlilik"
+    url = "/sayfa/gizlilik/"
+    weight = 5
