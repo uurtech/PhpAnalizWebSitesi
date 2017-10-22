@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on PHP Analiz - Uğur KAZDAL</title>
+    <link>https://phpanaliz.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 20 Oct 2017 11:16:55 +0300</lastBuildDate>
+    
+	<atom:link href="https://phpanaliz.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Üzerine Apache,Mysql ve Phpmyadmin Kurulumu</title>
+      <link>https://phpanaliz.com/post/linux-uzerine-apache-mysql-phpmyadmin-kurulumu/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/post/linux-uzerine-apache-mysql-phpmyadmin-kurulumu/</guid>
+      <description>Linux üzerine sistem üzerine Apache, MySQL ve Phpmyadmin kurulumu yapıp test edicez.
+Hızlıca başlayalım, ssh üzerinden linux sunucumuza bağlanıyoruz.
+ssh root@IP_ADRESİ  Çıkan ekranda şifrenizi girin (korkmayın klavyeye girince ekranda hiç bir hareket olmaz, girip Enter&amp;rsquo;a basın).
+Sonrasında hızlıca bir update yapalım
+sudo apt-get update  Şimdi Apache&amp;rsquo;mizi indirip kuralım
+sudo apt-get install apache2  Çıkan soruya Y veya E diye yanıtlayıp Enter&amp;rsquo;a basıyoruz.
+kurulumu tamamladık, şimdi bakalım Apache2&amp;rsquo;miz çalışıyor mu ?</description>
+    </item>
+    
+  </channel>
+</rss>

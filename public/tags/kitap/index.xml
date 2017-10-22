@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kitap on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Kitap on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/kitap/</link>
+    <description>Recent content in Kitap on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Thu, 21 Sep 2017 01:24:43 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/kitap/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Thu, 21 Sep 2017 01:24:43 &#43;03</updated>
     
     <item>
       <title>Benchmark Testleri</title>
       <link>https://phpanaliz.com/post/benchmark-testleri/</link>
-      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/benchmark-testleri/</guid>
       <description>Bu yazıda PHP&amp;rsquo;i şu dili böyle döver falan gibi saçma şeyler olmayacak, her yazılım dilinin başka bir dile üstün olduğu alanlar mevcuttur ki 2017 yılında Cache sistemlerinin olması nedeniyle doğru yapılan işlerde dillerin pek önemi kalmıyor. Biz benchmark testlerine bakıp PHP&amp;rsquo;nin performans olarak ileride olduğu noktaları inceleyelim,
@@ -23,4 +25,3 @@ Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakal�
     
   </channel>
 </rss>
-

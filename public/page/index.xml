@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Page on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Page on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/page/</link>
+    <description>Recent content in Page on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Fri, 13 Oct 2017 10:49:53 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/page/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Fri, 13 Oct 2017 10:49:53 &#43;03</updated>
     
     <item>
       <title>Gizlilik</title>
       <link>https://phpanaliz.com/page/gizlilik/</link>
-      <pubDate>Fri, 13 Oct 2017 10:49:53 &#43;03</pubDate>
+      <pubDate>Fri, 13 Oct 2017 10:49:53 +0300</pubDate>
       
       <guid>https://phpanaliz.com/page/gizlilik/</guid>
       <description>Gizlilik Politikası ve Şartlar
@@ -22,7 +24,7 @@ Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçünc�
     <item>
       <title>Arama</title>
       <link>https://phpanaliz.com/page/search/</link>
-      <pubDate>Wed, 30 Aug 2017 14:21:07 &#43;03</pubDate>
+      <pubDate>Wed, 30 Aug 2017 14:21:07 +0300</pubDate>
       
       <guid>https://phpanaliz.com/page/search/</guid>
       <description>function getParameterByName(name, url) { if (!url) url = window.location.href; name = name.replace(/[\[\]]/g, &#34;\\$&amp;&#34;); var regex = new RegExp(&#34;[?&amp;]&#34; + name + &#34;(=([^&amp;#]*)|&amp;|#|$)&#34;), results = regex.exec(url); if (!results) return null; if (!results[2]) return &#39;&#39;; return decodeURIComponent(results[2].replace(/\+/g, &#34; &#34;)); } var sonucSayac = 0; var string = getParameterByName(&#34;kelime&#34;); if(string !== null){ var result = new Array(); var feed = &#34;/index.xml&#34;; $.ajax(feed, { accepts:{ xml:&#34;application/rss+xml&#34; }, dataType:&#34;xml&#34;, success:function(data) { $(data).find(&#34;item&#34;).each(function () { var el = $(this); if(el.</description>
@@ -31,7 +33,7 @@ Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçünc�
     <item>
       <title>Hakkımda</title>
       <link>https://phpanaliz.com/page/hakkimda/</link>
-      <pubDate>Mon, 28 Aug 2017 23:06:59 &#43;03</pubDate>
+      <pubDate>Mon, 28 Aug 2017 23:06:59 +0300</pubDate>
       
       <guid>https://phpanaliz.com/page/hakkimda/</guid>
       <description>Merhaba, Ben Uğur KAZDAL, 1ki3 Bilgi Teknolojileri firmasında Teknolojiden Sorumlu Yönetici olarak çalışmaktayım.
@@ -42,7 +44,7 @@ Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda 
     <item>
       <title>İletişim</title>
       <link>https://phpanaliz.com/page/iletisim/</link>
-      <pubDate>Mon, 28 Aug 2017 23:06:59 &#43;03</pubDate>
+      <pubDate>Mon, 28 Aug 2017 23:06:59 +0300</pubDate>
       
       <guid>https://phpanaliz.com/page/iletisim/</guid>
       <description>PHP ile ilgili merak ettiğiniz soruları çekinmeden sorabilirsiniz.
@@ -51,4 +53,3 @@ E-postayı görmek için tıklayın</description>
     
   </channel>
 </rss>
-

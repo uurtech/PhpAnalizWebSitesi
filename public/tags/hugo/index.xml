@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Hugo on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Hugo on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/hugo/</link>
+    <description>Recent content in Hugo on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Tue, 29 Aug 2017 23:59:56 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 29 Aug 2017 23:59:56 &#43;03</updated>
     
     <item>
       <title>Jquery ile Hugo Search Ekleme</title>
       <link>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</link>
-      <pubDate>Tue, 29 Aug 2017 23:59:56 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</guid>
       <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.
@@ -23,7 +25,7 @@ Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Se
     <item>
       <title>Firebase Hosting Üzerine Blog Kurmak</title>
       <link>https://phpanaliz.com/post/firebase-hosting-uzerine-blog-kurmak/</link>
-      <pubDate>Tue, 11 Jul 2017 18:50:23 &#43;03</pubDate>
+      <pubDate>Tue, 11 Jul 2017 18:50:23 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/firebase-hosting-uzerine-blog-kurmak/</guid>
       <description>Firebase Hosting üzerine blog kurmak, evet, biraz dolaylı olacak ancak, hugo (Go ile yazılmış bir sistem) ile bunu maksimum performans ve güvenlikle firebase&amp;rsquo;e uygun şekilde blog kurabiliyoruz.
@@ -34,7 +36,7 @@ Firebase hosting hesabınıza Hugo ile blog kurmak istiyorsanız ,
     <item>
       <title>Facebook Comments Ekleme</title>
       <link>https://phpanaliz.com/post/facebook-comment-ekleme/</link>
-      <pubDate>Tue, 11 Jul 2017 07:59:41 &#43;03</pubDate>
+      <pubDate>Tue, 11 Jul 2017 07:59:41 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/facebook-comment-ekleme/</guid>
       <description>Hugo ile Firebase hosting üzerine kurduğumuz sitemize Facebook Comments eklemek istiyorsunuz, ancak pluginler vs uğraşmak yerine bu işi basit şekilde çözmeye niyetlisiniz, bu basit olan şey aslında 30 saniye sürerken 13 dakika da anca anlatabildim :) Buyrun
@@ -44,7 +46,7 @@ Firebase hosting hesabınıza Hugo ile blog kurmak istiyorsanız ,
     <item>
       <title>Hugo Datetime Degistirme</title>
       <link>https://phpanaliz.com/post/hugo-datetime-degistirme/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/post/hugo-datetime-degistirme/</guid>
       <description>Bilmiyorsanız hemen söyliyeyim, Hugo, Go Lang ile geliştirilmiş bir tool, web sitesinin gohugo olması buradan geliyor. Hugo sistemini kurduğunuzda tema da gözünüze batan ilk şeylerden biri, tarihlerin amerikan stili olması, çünkü alışık değiliz !
@@ -55,7 +57,7 @@ Tema üzerinde .Site.Params.DateForm gibi bir tanımlama var ise, config dosyan�
     <item>
       <title>Hugo Google Analytics</title>
       <link>https://phpanaliz.com/post/hugo-google-analyitcs/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/post/hugo-google-analyitcs/</guid>
       <description>Google Analytics kodlarını temanınızın ayarlarında bulunuyorsa rahatlıkla ekleyebilirsiniz, eğer temanızda .Site.Params.GoogleAnalyticsUserID bulunmuyorsa kendiniz ekleyebilirsiniz.
@@ -65,4 +67,3 @@ Aşağıdaki videoda Google Analytics kodlarını Hugo Config dosyasına nasıl 
     
   </channel>
 </rss>
-

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Gizlilik on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Gizlilik on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/gizlilik/</link>
+    <description>Recent content in Gizlilik on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Fri, 13 Oct 2017 10:49:53 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/gizlilik/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Fri, 13 Oct 2017 10:49:53 &#43;03</updated>
     
     <item>
       <title>Gizlilik</title>
       <link>https://phpanaliz.com/page/gizlilik/</link>
-      <pubDate>Fri, 13 Oct 2017 10:49:53 &#43;03</pubDate>
+      <pubDate>Fri, 13 Oct 2017 10:49:53 +0300</pubDate>
       
       <guid>https://phpanaliz.com/page/gizlilik/</guid>
       <description>Gizlilik Politikası ve Şartlar
@@ -21,4 +23,3 @@ Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçünc�
     
   </channel>
 </rss>
-

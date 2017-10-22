@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Os on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Os on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/os/</link>
+    <description>Recent content in Os on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Wed, 13 Sep 2017 22:39:29 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/os/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Wed, 13 Sep 2017 22:39:29 &#43;03</updated>
     
     <item>
       <title>Yazılımcı İçin İşletim Sistemi</title>
       <link>https://phpanaliz.com/post/yazilimci-icin-isletim-sistemi/</link>
-      <pubDate>Wed, 13 Sep 2017 22:39:29 &#43;03</pubDate>
+      <pubDate>Wed, 13 Sep 2017 22:39:29 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/yazilimci-icin-isletim-sistemi/</guid>
       <description>Cümleye direk Ben MacOS kullanıyorum diye başlıyorum. Bunun sizler için hiç bir önemi olmaması gerekiyor. Çünkü ofiste kullandığım geliştirme cihazım başarılı bir Windows 10 x64
@@ -21,4 +23,3 @@ Hangi işletim sistemini kullanmanız gerektiği ile ilgili kafanızda soru işa
     
   </channel>
 </rss>
-

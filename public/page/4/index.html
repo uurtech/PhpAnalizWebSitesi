@@ -51,13 +51,17 @@
                         
                         
                             <div class="post">
-  <a class="post-link" href="https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/">
+  <a class="post-link" href="https://phpanaliz.com/post/php-facebook-login-yeni-api/">
   <p class="post-author right">Yazan Uğur KAZDAL</p>
   <div class="clearfix"></div>
-  <h3 class="h2 post-title">Php Komut Satırı Kodlari Çalıştırmak </h3>
-  <p class="post-summary">PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
-Sıralayalım
- escapeshellarg — Bir komutun değiştirge dizgesini önceler escapeshellcmd — Kabuk meta karakterlerini önceler exec — Bir komut çalıştırır passthru — Harici bir programı çalıştırır ve çıktısını ham olarak gösterir proc_close — proc_open tarafından açılmış bir süreci kapatır ve sürecin çıkış kodunu döndürür proc_get_status — proc_open tarafından açılmış bir süreç hakkında bilgi döndürür proc_nice — Çalışan sürecin önceliğini değiştirir proc_open — Bir komutu çalıştırır ve G/Ç için bir dosya tanıtıcı açar proc_terminate — proc_open ile açılmış bir süreci öldürür shell_exec — Komutu kabukta çalıştırır ve çıktısının tamamını bir dizge olarak döndürür system — Belirtilen harici komutu çalıştırır ve çıktısını gösterir  Bunların arasında system fonksiyonu C dilinde de mevcut.</p>
+  <h3 class="h2 post-title">Php Facebook Login Yeni Api </h3>
+  <p class="post-summary">Facebook&lsquo;un yeni API sürümü ile PHP kullanarak Login sistemi geliştirelim,
+İlk olarak Composer ile Facebook bağlantılarımızı yapmak için gerekli sınıfları indirelim
+composer require facebook/graph-sdk  Şimdi Facebook üzerine dönelim https://developers.facebook.com/apps/ adresine girip Uygulama oluşturuyoruz,
+Local üzerinde çalışıyorsak, local adresimiz de yazmalıyız,
+Facebook üzerinde app oluşturma için hızlı bir video çektim, 
+Şimdi devam edelim
+require_once __DIR__ . '/vendor/autoload.php'; // bu dizini kendinize göre düzenleyin $fb = new \Facebook\Facebook([ 'app_id' =&gt; 'VİDEODAKİ APP ID', 'app_secret' =&gt; 'VİDEODAKİ SECRET', 'default_graph_version' =&gt; 'v2.</p>
   </a>
   
   <p class="post-meta">Etiketler:&nbsp;
@@ -66,7 +70,10 @@ Sıralayalım
       <a href="https://phpanaliz.com//tags/php">php</a>
   
       ,&nbsp;
-      <a href="https://phpanaliz.com//tags/komut%20satiri">komut satiri</a>
+      <a href="https://phpanaliz.com//tags/facebook">facebook</a>
+  
+      ,&nbsp;
+      <a href="https://phpanaliz.com//tags/login">login</a>
   </p>
 </div>
 

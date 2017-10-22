@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Laravel on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Laravel on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/laravel/</link>
+    <description>Recent content in Laravel on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Tue, 29 Aug 2017 22:27:45 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 29 Aug 2017 22:27:45 &#43;03</updated>
     
     <item>
       <title>Laravel ile 2 Dakika Admin Paneli Kurmak</title>
       <link>https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/</link>
-      <pubDate>Tue, 29 Aug 2017 22:27:45 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/</guid>
       <description>Bu kurulumu yapmanın ne kadar sürdüğüne baktığımda 1.56 dakika olduğunu gördüm. Müşteriniz eğer internet üzerinden satın aldığınız arayüzlerden birini beğenirse bir kaç saatte komple sağlam bir CMS&amp;rsquo;e sahip siteyi sadece giydirme yaparak yayına alabilirsiniz.
@@ -22,4 +24,3 @@ Voyager&amp;rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşt
     
   </channel>
 </rss>
-

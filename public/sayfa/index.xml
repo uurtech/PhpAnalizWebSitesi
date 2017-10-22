@@ -28,11 +28,11 @@ Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçünc�
       <pubDate>Wed, 30 Aug 2017 14:21:07 +0300</pubDate>
       
       <guid>https://phpanaliz.com/sayfa/search/</guid>
-      <description> </description>
+      <description>function getParameterByName(name, url) { if (!url) url = window.location.href; name = name.replace(/[\[\]]/g, &#34;\\$&amp;&#34;); var regex = new RegExp(&#34;[?&amp;]&#34; + name + &#34;(=([^&amp;#]*)|&amp;|#|$)&#34;), results = regex.exec(url); if (!results) return null; if (!results[2]) return &#39;&#39;; return decodeURIComponent(results[2].replace(/\+/g, &#34; &#34;)); } var sonucSayac = 0; var string = getParameterByName(&#34;kelime&#34;); if(string !== null){ var result = new Array(); var feed = &#34;/index.xml&#34;; $.ajax(feed, { accepts:{ xml:&#34;application/rss+xml&#34; }, dataType:&#34;xml&#34;, success:function(data) { $(data).find(&#34;item&#34;).each(function () { var el = $(this); if(el.</description>
     </item>
     
     <item>
-      <title>İletişim</title>
+      <title>Hakkımda</title>
       <link>https://phpanaliz.com/sayfa/hakkimda/</link>
       <pubDate>Mon, 28 Aug 2017 23:06:59 +0300</pubDate>
       

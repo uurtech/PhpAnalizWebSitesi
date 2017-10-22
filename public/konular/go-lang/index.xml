@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Go Lang on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Go Lang on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/go-lang/</link>
+    <description>Recent content in Go Lang on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/go-lang/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sun, 09 Jul 2017 00:00:00 UTC</updated>
     
     <item>
       <title>Hugo Datetime Degistirme</title>
       <link>https://phpanaliz.com/post/hugo-datetime-degistirme/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/post/hugo-datetime-degistirme/</guid>
       <description>Bilmiyorsanız hemen söyliyeyim, Hugo, Go Lang ile geliştirilmiş bir tool, web sitesinin gohugo olması buradan geliyor. Hugo sistemini kurduğunuzda tema da gözünüze batan ilk şeylerden biri, tarihlerin amerikan stili olması, çünkü alışık değiliz !
@@ -22,4 +24,3 @@ Tema üzerinde .Site.Params.DateForm gibi bir tanımlama var ise, config dosyan�
     
   </channel>
 </rss>
-

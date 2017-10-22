@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Chrome on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Chrome on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/chrome/</link>
+    <description>Recent content in Chrome on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Wed, 13 Sep 2017 23:39:06 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/chrome/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Wed, 13 Sep 2017 23:39:06 &#43;03</updated>
     
     <item>
       <title>Web Sayfasına Splash Ekleme</title>
       <link>https://phpanaliz.com/post/web-sayfasina-splash-screen-ekleme/</link>
-      <pubDate>Wed, 13 Sep 2017 23:39:06 &#43;03</pubDate>
+      <pubDate>Wed, 13 Sep 2017 23:39:06 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/web-sayfasina-splash-screen-ekleme/</guid>
       <description>Chrome&amp;rsquo;un 2 yıl önce getirdiği bir özellik, yerel web master sitelerinde bu özelliği görmedim. Google&amp;rsquo;ın Chrome paylaşımlarını incelerken dikkatimi çekti. Chrome kullanan kişiler web sitenizde splash screen görüp sitenize öyle geliyor, sanki uygulamaymış gibi.
@@ -23,4 +25,3 @@ Gelelim Web sitemize splash ekranı eklemeye,
     
   </channel>
 </rss>
-

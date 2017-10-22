@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Social Sdk on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Social Sdk on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/social-sdk/</link>
+    <description>Recent content in Social Sdk on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Sat, 14 Oct 2017 13:33:21 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/social-sdk/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sat, 14 Oct 2017 13:33:21 &#43;03</updated>
     
     <item>
       <title>Php Facebook Login Yeni Api</title>
       <link>https://phpanaliz.com/post/php-facebook-login-yeni-api/</link>
-      <pubDate>Sat, 14 Oct 2017 13:33:21 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 13:33:21 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-facebook-login-yeni-api/</guid>
       <description>Facebook&amp;lsquo;un yeni API sürümü ile PHP kullanarak Login sistemi geliştirelim,
@@ -26,4 +28,3 @@ require_once __DIR__ . &#39;/vendor/autoload.php&#39;; // bu dizini kendinize g�
     
   </channel>
 </rss>
-

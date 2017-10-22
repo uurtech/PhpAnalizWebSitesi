@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Lighthouse on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Lighthouse on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/lighthouse/</link>
+    <description>Recent content in Lighthouse on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Wed, 13 Sep 2017 23:28:36 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/lighthouse/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Wed, 13 Sep 2017 23:28:36 &#43;03</updated>
     
     <item>
       <title>Lighthouse; Google&#39;dan Bizlere Hediye</title>
       <link>https://phpanaliz.com/post/lighthouse-google-dan-bizlere-hediye/</link>
-      <pubDate>Wed, 13 Sep 2017 23:28:36 &#43;03</pubDate>
+      <pubDate>Wed, 13 Sep 2017 23:28:36 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/lighthouse-google-dan-bizlere-hediye/</guid>
       <description>Github&amp;rsquo;da gözüme çarpan projelerden, lighthouse. Google&amp;rsquo;ın Chrome için geliştirdiği web sitesi analizi yapan mükemmel ve yenilikçi bir eklenti.
@@ -24,4 +26,3 @@ Bunlarla birlikte dilerseniz, html çıktı alıp rapor olarak müşterinize ile
     
   </channel>
 </rss>
-

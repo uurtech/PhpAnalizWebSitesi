@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Konular on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Konular on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/</link>
+    <description>Recent content in Konular on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Fri, 20 Oct 2017 11:16:55 +0300</lastBuildDate>
+    
+	<atom:link href="https://phpanaliz.com/konular/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <updated>Sat, 14 Oct 2017 15:30:58 &#43;03</updated>
+    <item>
+      <title>Apache</title>
+      <link>https://phpanaliz.com/konular/apache/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/apache/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bash</title>
       <link>https://phpanaliz.com/konular/bash/</link>
-      <pubDate>Sat, 14 Oct 2017 15:30:58 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/bash/</guid>
       <description></description>
@@ -21,7 +32,7 @@
     <item>
       <title>Benchmark</title>
       <link>https://phpanaliz.com/konular/benchmark/</link>
-      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/benchmark/</guid>
       <description></description>
@@ -30,7 +41,7 @@
     <item>
       <title>Chrome</title>
       <link>https://phpanaliz.com/konular/chrome/</link>
-      <pubDate>Wed, 13 Sep 2017 23:39:06 &#43;03</pubDate>
+      <pubDate>Wed, 13 Sep 2017 23:39:06 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/chrome/</guid>
       <description></description>
@@ -39,7 +50,7 @@
     <item>
       <title>Cloudflare</title>
       <link>https://phpanaliz.com/konular/cloudflare/</link>
-      <pubDate>Wed, 18 Oct 2017 07:23:26 &#43;03</pubDate>
+      <pubDate>Wed, 18 Oct 2017 07:23:26 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/cloudflare/</guid>
       <description></description>
@@ -48,7 +59,7 @@
     <item>
       <title>Cpp</title>
       <link>https://phpanaliz.com/konular/cpp/</link>
-      <pubDate>Fri, 13 Oct 2017 14:52:13 &#43;03</pubDate>
+      <pubDate>Fri, 13 Oct 2017 14:52:13 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/cpp/</guid>
       <description></description>
@@ -57,7 +68,7 @@
     <item>
       <title>Emoji</title>
       <link>https://phpanaliz.com/konular/emoji/</link>
-      <pubDate>Sat, 14 Oct 2017 15:30:58 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/emoji/</guid>
       <description></description>
@@ -66,7 +77,7 @@
     <item>
       <title>Firebase</title>
       <link>https://phpanaliz.com/konular/firebase/</link>
-      <pubDate>Tue, 29 Aug 2017 23:59:56 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/firebase/</guid>
       <description></description>
@@ -75,7 +86,7 @@
     <item>
       <title>Gizlilik</title>
       <link>https://phpanaliz.com/konular/gizlilik/</link>
-      <pubDate>Fri, 13 Oct 2017 10:49:53 &#43;03</pubDate>
+      <pubDate>Fri, 13 Oct 2017 10:49:53 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/gizlilik/</guid>
       <description></description>
@@ -84,7 +95,7 @@
     <item>
       <title>Go Lang</title>
       <link>https://phpanaliz.com/konular/go-lang/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/konular/go-lang/</guid>
       <description></description>
@@ -93,7 +104,7 @@
     <item>
       <title>Google</title>
       <link>https://phpanaliz.com/konular/google/</link>
-      <pubDate>Wed, 13 Sep 2017 23:28:36 &#43;03</pubDate>
+      <pubDate>Wed, 13 Sep 2017 23:28:36 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/google/</guid>
       <description></description>
@@ -102,7 +113,7 @@
     <item>
       <title>Hugo</title>
       <link>https://phpanaliz.com/konular/hugo/</link>
-      <pubDate>Sat, 16 Sep 2017 20:47:03 &#43;03</pubDate>
+      <pubDate>Sat, 16 Sep 2017 20:47:03 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/hugo/</guid>
       <description></description>
@@ -111,7 +122,7 @@
     <item>
       <title>Internet</title>
       <link>https://phpanaliz.com/konular/internet/</link>
-      <pubDate>Tue, 29 Aug 2017 18:41:01 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 18:41:01 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/internet/</guid>
       <description></description>
@@ -120,7 +131,7 @@
     <item>
       <title>Jquery</title>
       <link>https://phpanaliz.com/konular/jquery/</link>
-      <pubDate>Wed, 18 Oct 2017 07:23:26 &#43;03</pubDate>
+      <pubDate>Wed, 18 Oct 2017 07:23:26 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/jquery/</guid>
       <description></description>
@@ -129,7 +140,7 @@
     <item>
       <title>Kitap</title>
       <link>https://phpanaliz.com/konular/kitap/</link>
-      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/kitap/</guid>
       <description></description>
@@ -138,12 +149,146 @@
     <item>
       <title>Komut Satiri</title>
       <link>https://phpanaliz.com/konular/komut-satiri/</link>
-      <pubDate>Sat, 14 Oct 2017 12:38:47 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 +0300</pubDate>
       
       <guid>https://phpanaliz.com/konular/komut-satiri/</guid>
       <description></description>
     </item>
     
+    <item>
+      <title>Laravel</title>
+      <link>https://phpanaliz.com/konular/laravel/</link>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://phpanaliz.com/konular/linux/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://phpanaliz.com/konular/mac/</link>
+      <pubDate>Fri, 22 Sep 2017 23:16:45 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://phpanaliz.com/konular/mysql/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>https://phpanaliz.com/konular/php/</link>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phpmyadmin</title>
+      <link>https://phpanaliz.com/konular/phpmyadmin/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/phpmyadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Script</title>
+      <link>https://phpanaliz.com/konular/script/</link>
+      <pubDate>Mon, 28 Aug 2017 23:14:26 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seo</title>
+      <link>https://phpanaliz.com/konular/seo/</link>
+      <pubDate>Tue, 29 Aug 2017 18:41:01 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Site Yönetimi</title>
+      <link>https://phpanaliz.com/konular/site-y%C3%B6netimi/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/site-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Sdk</title>
+      <link>https://phpanaliz.com/konular/social-sdk/</link>
+      <pubDate>Sat, 14 Oct 2017 13:33:21 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/social-sdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Sdks</title>
+      <link>https://phpanaliz.com/konular/social-sdks/</link>
+      <pubDate>Tue, 11 Jul 2017 07:59:41 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/social-sdks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://phpanaliz.com/konular/ubuntu/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voyager</title>
+      <link>https://phpanaliz.com/konular/voyager/</link>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/voyager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://phpanaliz.com/konular/web/</link>
+      <pubDate>Sat, 16 Sep 2017 20:47:03 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yazilim</title>
+      <link>https://phpanaliz.com/konular/yazilim/</link>
+      <pubDate>Wed, 13 Sep 2017 22:39:29 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/konular/yazilim/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
-

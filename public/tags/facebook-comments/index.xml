@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Facebook Comments on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Facebook Comments on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/facebook-comments/</link>
+    <description>Recent content in Facebook Comments on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Tue, 11 Jul 2017 07:59:41 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/facebook-comments/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 11 Jul 2017 07:59:41 &#43;03</updated>
     
     <item>
       <title>Facebook Comments Ekleme</title>
       <link>https://phpanaliz.com/post/facebook-comment-ekleme/</link>
-      <pubDate>Tue, 11 Jul 2017 07:59:41 &#43;03</pubDate>
+      <pubDate>Tue, 11 Jul 2017 07:59:41 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/facebook-comment-ekleme/</guid>
       <description>Hugo ile Firebase hosting üzerine kurduğumuz sitemize Facebook Comments eklemek istiyorsunuz, ancak pluginler vs uğraşmak yerine bu işi basit şekilde çözmeye niyetlisiniz, bu basit olan şey aslında 30 saniye sürerken 13 dakika da anca anlatabildim :) Buyrun
@@ -21,4 +23,3 @@
     
   </channel>
 </rss>
-

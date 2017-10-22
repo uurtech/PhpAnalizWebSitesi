@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Seo on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Seo on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/seo/</link>
+    <description>Recent content in Seo on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Tue, 29 Aug 2017 18:41:01 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/seo/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 29 Aug 2017 18:41:01 &#43;03</updated>
     
     <item>
       <title>Seo Hakkında Bilmedikleriniz</title>
       <link>https://phpanaliz.com/post/seo-hakkinda-bilmedikleriniz/</link>
-      <pubDate>Tue, 29 Aug 2017 18:41:01 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 18:41:01 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/seo-hakkinda-bilmedikleriniz/</guid>
       <description>İlk olarak şununla başlıyorum, SEO uzmanlığı bir meslek vb değildir. Bu işi dünya da bile en iyi yaptığını iddia eden firmalar sizlerin üç ay sonra Google&amp;rsquo;ın indexlerinizi silmenize yol açacaktır.
@@ -21,4 +23,3 @@ SEO için Google&amp;rsquo;ı telefonla bile aradık, adamlar diyor ki, arama mo
     
   </channel>
 </rss>
-

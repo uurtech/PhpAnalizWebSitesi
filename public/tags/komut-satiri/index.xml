@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Komut Satiri on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Komut Satiri on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/komut-satiri/</link>
+    <description>Recent content in Komut Satiri on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Sat, 14 Oct 2017 12:38:47 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/komut-satiri/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sat, 14 Oct 2017 12:38:47 &#43;03</updated>
     
     <item>
       <title>Php Komut Satırı Kodlari Çalıştırmak</title>
       <link>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</link>
-      <pubDate>Sat, 14 Oct 2017 12:38:47 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</guid>
       <description>PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&amp;rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
@@ -22,4 +24,3 @@ Sıralayalım
     
   </channel>
 </rss>
-

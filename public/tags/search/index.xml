@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Search on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Search on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/search/</link>
+    <description>Recent content in Search on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Tue, 29 Aug 2017 23:59:56 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 29 Aug 2017 23:59:56 &#43;03</updated>
     
     <item>
       <title>Jquery ile Hugo Search Ekleme</title>
       <link>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</link>
-      <pubDate>Tue, 29 Aug 2017 23:59:56 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/jquery-ile-firebase-siteye-search-ekleme/</guid>
       <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.
@@ -22,4 +24,3 @@ Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Se
     
   </channel>
 </rss>
-

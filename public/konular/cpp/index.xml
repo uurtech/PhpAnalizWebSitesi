@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Cpp on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Cpp on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/cpp/</link>
+    <description>Recent content in Cpp on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Fri, 13 Oct 2017 14:52:13 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/cpp/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Fri, 13 Oct 2017 14:52:13 &#43;03</updated>
     
     <item>
       <title>Php ile CPP kodları çalıştırmak</title>
       <link>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</link>
-      <pubDate>Fri, 13 Oct 2017 14:52:13 &#43;03</pubDate>
+      <pubDate>Fri, 13 Oct 2017 14:52:13 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</guid>
       <description>PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
@@ -22,4 +24,3 @@
     
   </channel>
 </rss>
-

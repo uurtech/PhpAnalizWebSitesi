@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Api on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Api on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/api/</link>
+    <description>Recent content in Api on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Thu, 12 Oct 2017 21:16:07 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Thu, 12 Oct 2017 21:16:07 &#43;03</updated>
     
     <item>
       <title>Php ile Resim Compress</title>
       <link>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</link>
-      <pubDate>Thu, 12 Oct 2017 21:16:07 &#43;03</pubDate>
+      <pubDate>Thu, 12 Oct 2017 21:16:07 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</guid>
       <description>PHP&amp;lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.
@@ -23,4 +25,3 @@ Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsini
     
   </channel>
 </rss>
-

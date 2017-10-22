@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Script on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Script on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/script/</link>
+    <description>Recent content in Script on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Mon, 28 Aug 2017 23:14:26 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/script/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Mon, 28 Aug 2017 23:14:26 &#43;03</updated>
     
     <item>
       <title>Vhost Script Kullanımı</title>
       <link>https://phpanaliz.com/post/vhosts-script-kullanimi/</link>
-      <pubDate>Mon, 28 Aug 2017 23:14:26 &#43;03</pubDate>
+      <pubDate>Mon, 28 Aug 2017 23:14:26 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/vhosts-script-kullanimi/</guid>
       <description>MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
@@ -22,4 +24,3 @@ php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım
     
   </channel>
 </rss>
-

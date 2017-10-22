@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Php on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Php on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/php/</link>
+    <description>Recent content in Php on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Sat, 14 Oct 2017 15:30:58 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sat, 14 Oct 2017 15:30:58 &#43;03</updated>
     
     <item>
       <title>Php ile Terminalde Emoji Yazdırmak</title>
       <link>https://phpanaliz.com/post/php-ile-terminalde-emoji-yazdirmak/</link>
-      <pubDate>Sat, 14 Oct 2017 15:30:58 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-ile-terminalde-emoji-yazdirmak/</guid>
       <description>PHP ile konsola komut gönderimine bakmıştık, bu sefer konsol üzerinde emoji yazdırmaya bakalım.
@@ -26,7 +28,7 @@ Peki buradaki bu karakterler ne anlama geliyor.</description>
     <item>
       <title>Php Facebook Login Yeni Api</title>
       <link>https://phpanaliz.com/post/php-facebook-login-yeni-api/</link>
-      <pubDate>Sat, 14 Oct 2017 13:33:21 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 13:33:21 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-facebook-login-yeni-api/</guid>
       <description>Facebook&amp;lsquo;un yeni API sürümü ile PHP kullanarak Login sistemi geliştirelim,
@@ -41,7 +43,7 @@ require_once __DIR__ . &#39;/vendor/autoload.php&#39;; // bu dizini kendinize g�
     <item>
       <title>Php Komut Satırı Kodlari Çalıştırmak</title>
       <link>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</link>
-      <pubDate>Sat, 14 Oct 2017 12:38:47 &#43;03</pubDate>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</guid>
       <description>PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&amp;rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
@@ -52,7 +54,7 @@ Sıralayalım
     <item>
       <title>Php ile CPP kodları çalıştırmak</title>
       <link>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</link>
-      <pubDate>Fri, 13 Oct 2017 14:52:13 &#43;03</pubDate>
+      <pubDate>Fri, 13 Oct 2017 14:52:13 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</guid>
       <description>PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
@@ -63,7 +65,7 @@ Sıralayalım
     <item>
       <title>Php ile Resim Compress</title>
       <link>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</link>
-      <pubDate>Thu, 12 Oct 2017 21:16:07 &#43;03</pubDate>
+      <pubDate>Thu, 12 Oct 2017 21:16:07 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</guid>
       <description>PHP&amp;lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.
@@ -75,7 +77,7 @@ Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsini
     <item>
       <title>Php ile Proxy Değiştirme</title>
       <link>https://phpanaliz.com/post/php-ile-proxy-degistirme/</link>
-      <pubDate>Wed, 11 Oct 2017 10:25:13 &#43;03</pubDate>
+      <pubDate>Wed, 11 Oct 2017 10:25:13 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/php-ile-proxy-degistirme/</guid>
       <description>PHP uygulaması geliştirirken, özel nedenlerden dolayı proxy değiştirmeye ihtiyacınız olabilir, belki hile geliştiriceksiniz, belki de sisteminizi dış bağlantılarla kontrol edeceksiniz, belki de çok orijnal bir şey için ihtiyacınız var. PHP&amp;rsquo;de proxy değiştirmeye ihtiyacınız olduğunda çok rahat yapabiliyorsunuz. Önemli olan hangi metodla kendi PHP uygulamanıza uyarlamanız,
@@ -86,7 +88,7 @@ function getUrl($url) { $ch = curl_init(); $timeout = 5; // set to zero for no t
     <item>
       <title>Benchmark Testleri</title>
       <link>https://phpanaliz.com/post/benchmark-testleri/</link>
-      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/benchmark-testleri/</guid>
       <description>Bu yazıda PHP&amp;rsquo;i şu dili böyle döver falan gibi saçma şeyler olmayacak, her yazılım dilinin başka bir dile üstün olduğu alanlar mevcuttur ki 2017 yılında Cache sistemlerinin olması nedeniyle doğru yapılan işlerde dillerin pek önemi kalmıyor. Biz benchmark testlerine bakıp PHP&amp;rsquo;nin performans olarak ileride olduğu noktaları inceleyelim,
@@ -98,7 +100,7 @@ Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakal�
     <item>
       <title>Laravel ile 2 Dakika Admin Paneli Kurmak</title>
       <link>https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/</link>
-      <pubDate>Tue, 29 Aug 2017 22:27:45 &#43;03</pubDate>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/laravel-ile-2-dakikada-admin-paneli-kurmak/</guid>
       <description>Bu kurulumu yapmanın ne kadar sürdüğüne baktığımda 1.56 dakika olduğunu gördüm. Müşteriniz eğer internet üzerinden satın aldığınız arayüzlerden birini beğenirse bir kaç saatte komple sağlam bir CMS&amp;rsquo;e sahip siteyi sadece giydirme yaparak yayına alabilirsiniz.
@@ -109,7 +111,7 @@ Voyager&amp;rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşt
     <item>
       <title>Vhost Script Kullanımı</title>
       <link>https://phpanaliz.com/post/vhosts-script-kullanimi/</link>
-      <pubDate>Mon, 28 Aug 2017 23:14:26 &#43;03</pubDate>
+      <pubDate>Mon, 28 Aug 2017 23:14:26 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/vhosts-script-kullanimi/</guid>
       <description>MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
@@ -119,4 +121,3 @@ php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım
     
   </channel>
 </rss>
-

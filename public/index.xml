@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>PHP Analiz - Uğur KAZDAL on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>PHP Analiz - PHP Geliştirme</title>
     <link>https://phpanaliz.com/</link>
-    <language>tr</language>
+    <description>Recent content on PHP Analiz - PHP Geliştirme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-TR</language>
+    <copyright>Uğur KAZDAL</copyright>
+    <lastBuildDate>Fri, 20 Oct 2017 11:16:55 +0300</lastBuildDate>
+    
+	<atom:link href="https://phpanaliz.com/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <updated>Wed, 18 Oct 2017 07:23:26 &#43;03</updated>
+    <item>
+      <title>Linux Üzerine Apache,Mysql ve Phpmyadmin Kurulumu</title>
+      <link>https://phpanaliz.com/yazi/linux-uzerine-apache-mysql-phpmyadmin-kurulumu/</link>
+      <pubDate>Fri, 20 Oct 2017 11:16:55 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/linux-uzerine-apache-mysql-phpmyadmin-kurulumu/</guid>
+      <description>Linux üzerine sistem üzerine Apache, MySQL ve Phpmyadmin kurulumu yapıp test edicez.
+Hızlıca başlayalım, ssh üzerinden linux sunucumuza bağlanıyoruz.
+ssh root@IP_ADRESİ  Çıkan ekranda şifrenizi girin (korkmayın klavyeye girince ekranda hiç bir hareket olmaz, girip Enter&amp;rsquo;a basın).
+Sonrasında hızlıca bir update yapalım
+sudo apt-get update  Şimdi Apache&amp;rsquo;mizi indirip kuralım
+sudo apt-get install apache2  Çıkan soruya Y veya E diye yanıtlayıp Enter&amp;rsquo;a basıyoruz.
+kurulumu tamamladık, şimdi bakalım Apache2&amp;rsquo;miz çalışıyor mu ?</description>
+    </item>
     
     <item>
       <title>Cloudflare Jquery Sorunu</title>
-      <link>https://phpanaliz.com/post/cloudflare-jquery-sorunu/</link>
-      <pubDate>Wed, 18 Oct 2017 07:23:26 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/cloudflare-jquery-sorunu/</link>
+      <pubDate>Wed, 18 Oct 2017 07:23:26 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/cloudflare-jquery-sorunu/</guid>
+      <guid>https://phpanaliz.com/yazi/cloudflare-jquery-sorunu/</guid>
       <description>Construct 2 ile oyun geliştirdik, Cloudflare premium hesabını mevcut adresimize yönlendirdik ancak Safari haricindeki tarayıcılarda oyun çalışmıyordu.
 Saatlerce oyun ile ilgili sorun olduğunu düşündükten sonra sorunun cache ile ilgili olduğunu tespit edip bu yönde çalışmaya başladık. Oyun sayfamızdaki elementlerin sorunsuz yüklenmesi ve Safari&amp;rsquo;de çalışmasının sonunda, oyunu çağıran kodlarımıza bir bakmak istedik ve gördük ki, document.ready fonksiyonu çalıştırılmıyor ancak bu konuda herhangi bir hatanın konsolda olmaması bizlere bu zamanı kaybettirdi.
 Dikkatimize çarpan şey ise jquery&amp;rsquo;nin sayfa içerisine alınırken tipinin değiştirilmesi yani şu şekilde,</description>
@@ -22,10 +40,10 @@ Dikkatimize çarpan şey ise jquery&amp;rsquo;nin sayfa içerisine alınırken t
     
     <item>
       <title>Php ile Terminalde Emoji Yazdırmak</title>
-      <link>https://phpanaliz.com/post/php-ile-terminalde-emoji-yazdirmak/</link>
-      <pubDate>Sat, 14 Oct 2017 15:30:58 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/php-ile-terminalde-emoji-yazdirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 15:30:58 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/php-ile-terminalde-emoji-yazdirmak/</guid>
+      <guid>https://phpanaliz.com/yazi/php-ile-terminalde-emoji-yazdirmak/</guid>
       <description>PHP ile konsola komut gönderimine bakmıştık, bu sefer konsol üzerinde emoji yazdırmaya bakalım.
 Nerden aklına geldi derseniz, forumlarda baya baya sormuş arkadaşlar, bulunsun istedim.
 Tahmin ettiğiniz gibi yapmamız gereken PHP&amp;rsquo;de komut satırına &amp;ldquo;bu işi sen yap&amp;rdquo; demek.
@@ -36,10 +54,10 @@ Peki buradaki bu karakterler ne anlama geliyor.</description>
     
     <item>
       <title>Php Facebook Login Yeni Api</title>
-      <link>https://phpanaliz.com/post/php-facebook-login-yeni-api/</link>
-      <pubDate>Sat, 14 Oct 2017 13:33:21 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/php-facebook-login-yeni-api/</link>
+      <pubDate>Sat, 14 Oct 2017 13:33:21 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/php-facebook-login-yeni-api/</guid>
+      <guid>https://phpanaliz.com/yazi/php-facebook-login-yeni-api/</guid>
       <description>Facebook&amp;lsquo;un yeni API sürümü ile PHP kullanarak Login sistemi geliştirelim,
 İlk olarak Composer ile Facebook bağlantılarımızı yapmak için gerekli sınıfları indirelim
 composer require facebook/graph-sdk  Şimdi Facebook üzerine dönelim https://developers.facebook.com/apps/ adresine girip Uygulama oluşturuyoruz,
@@ -51,10 +69,10 @@ require_once __DIR__ . &#39;/vendor/autoload.php&#39;; // bu dizini kendinize g�
     
     <item>
       <title>Php Komut Satırı Kodlari Çalıştırmak</title>
-      <link>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</link>
-      <pubDate>Sat, 14 Oct 2017 12:38:47 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/php-komut-satiri-kodlari-calistirmak/</link>
+      <pubDate>Sat, 14 Oct 2017 12:38:47 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/php-komut-satiri-kodlari-calistirmak/</guid>
+      <guid>https://phpanaliz.com/yazi/php-komut-satiri-kodlari-calistirmak/</guid>
       <description>PHP ile kod yazarken bazı özel durumlarda işletim sisteminde bulunan scriptleri veya uygulamaları çalıştırmanız gerekebilir. PHP&amp;rsquo;de komut satırında işlem yapmamızı sağlayan bir kaç adet method bulunuyor.
 Sıralayalım
  escapeshellarg — Bir komutun değiştirge dizgesini önceler escapeshellcmd — Kabuk meta karakterlerini önceler exec — Bir komut çalıştırır passthru — Harici bir programı çalıştırır ve çıktısını ham olarak gösterir proc_close — proc_open tarafından açılmış bir süreci kapatır ve sürecin çıkış kodunu döndürür proc_get_status — proc_open tarafından açılmış bir süreç hakkında bilgi döndürür proc_nice — Çalışan sürecin önceliğini değiştirir proc_open — Bir komutu çalıştırır ve G/Ç için bir dosya tanıtıcı açar proc_terminate — proc_open ile açılmış bir süreci öldürür shell_exec — Komutu kabukta çalıştırır ve çıktısının tamamını bir dizge olarak döndürür system — Belirtilen harici komutu çalıştırır ve çıktısını gösterir  Bunların arasında system fonksiyonu C dilinde de mevcut.</description>
@@ -62,10 +80,10 @@ Sıralayalım
     
     <item>
       <title>Php ile CPP kodları çalıştırmak</title>
-      <link>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</link>
-      <pubDate>Fri, 13 Oct 2017 14:52:13 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/</link>
+      <pubDate>Fri, 13 Oct 2017 14:52:13 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/php-kodu-icerisinde-cpp-kodu-calistirma/</guid>
+      <guid>https://phpanaliz.com/yazi/php-kodu-icerisinde-cpp-kodu-calistirma/</guid>
       <description>PHP geliştirirken bazı durumlarda başka dillerden desteğe ihtiyacınız olabilir. PHP içerisinde benim en çok ihtiyacım olan dil genellikle cpp oluyor. Bu yazı da PHP kodu içerisinde örnek CPP kodları çalıştırabileceğimiz bir kaç yöntem üzerine konuşalım istedim.
 İlk kurgumuz şu şekilde, C++ ile yazılmış veya yazacağımız bir yapımız var, bunu PHP içerisinde kullanmak istiyoruz. Ne yapmalıyız? Cevap Wrapper kodlamak. PHP&amp;rsquo;nin yazdığımı kodu anlayabilmesi için bir eklenti geliştirmek.
 İkinci kurgumuz, o kadar büyük abartılı değil basit olarak ne yapılabilir.</description>
@@ -73,20 +91,20 @@ Sıralayalım
     
     <item>
       <title>Gizlilik</title>
-      <link>https://phpanaliz.com/page/gizlilik/</link>
-      <pubDate>Fri, 13 Oct 2017 10:49:53 &#43;03</pubDate>
+      <link>https://phpanaliz.com/sayfa/gizlilik/</link>
+      <pubDate>Fri, 13 Oct 2017 10:49:53 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/page/gizlilik/</guid>
+      <guid>https://phpanaliz.com/sayfa/gizlilik/</guid>
       <description>Gizlilik Politikası ve Şartlar
 Web sitemizi ziyaret ettiğiniz zamanlarda reklam hizmeti vermek için üçüncü taraf reklam şirketlerini kullanmaktayız. Söz konusu şirketler, bu sitelere ve diğer web sitelerine yaptığınız ziyaretlerden elde ettikleri (adınız, adresiniz, e-posta adresiniz veya telefon numaranız dışındaki) bilgileri ilginizi çekecek ürün ve hizmetlerin reklamını size göstermek için kullanabilir. Bu uygulama hakkında bilgi edinmek için ve söz konusu bilgilerin bu şirketler tarafından kullanılmasını engellemek üzere seçeneklerinizin neler olduğunu öğrenmek isterseniz NAI Self-Regulatory principles for publishers (PDF) belgesinin A Eki&amp;rsquo;ne bakınız .</description>
     </item>
     
     <item>
       <title>Php ile Resim Compress</title>
-      <link>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</link>
-      <pubDate>Thu, 12 Oct 2017 21:16:07 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/php-ile-resim-dosya-boyutu-kucultme/</link>
+      <pubDate>Thu, 12 Oct 2017 21:16:07 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/php-ile-resim-dosya-boyutu-kucultme/</guid>
+      <guid>https://phpanaliz.com/yazi/php-ile-resim-dosya-boyutu-kucultme/</guid>
       <description>PHP&amp;lsquo;de geliştirdiğim bir scripti sizlerle paylaşmak istiyorum. Aslında çok basit küçük bir uygulama ama çok işime yarıyor.
 Müşterilerimize web sitelerini verirken, tinypng üzerinden resim sıkıştırıp yayınlıyoruz, Tinypng&amp;rsquo;nin Photoshop eklentisi ise sadece Windows&amp;rsquo;ta çalıştığı için satın almamız bir şey ifade etmeyeceğinden, dizindeki resimleri sıkıştırıp başka bir klasöre atan bir script geliştirdim.
 Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsiniz.
@@ -95,10 +113,10 @@ Scripti github üzerinden geliştirebilirsiniz buradaki adresten erişebilirsini
     
     <item>
       <title>Php ile Proxy Değiştirme</title>
-      <link>https://phpanaliz.com/post/php-ile-proxy-degistirme/</link>
-      <pubDate>Wed, 11 Oct 2017 10:25:13 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/php-ile-proxy-degistirme/</link>
+      <pubDate>Wed, 11 Oct 2017 10:25:13 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/php-ile-proxy-degistirme/</guid>
+      <guid>https://phpanaliz.com/yazi/php-ile-proxy-degistirme/</guid>
       <description>PHP uygulaması geliştirirken, özel nedenlerden dolayı proxy değiştirmeye ihtiyacınız olabilir, belki hile geliştiriceksiniz, belki de sisteminizi dış bağlantılarla kontrol edeceksiniz, belki de çok orijnal bir şey için ihtiyacınız var. PHP&amp;rsquo;de proxy değiştirmeye ihtiyacınız olduğunda çok rahat yapabiliyorsunuz. Önemli olan hangi metodla kendi PHP uygulamanıza uyarlamanız,
 İlk örnek CURL ile PHP&amp;rsquo;de proxy değiştirme
 function getUrl($url) { $ch = curl_init(); $timeout = 5; // set to zero for no timeout curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout); curl_setopt ($ch, CURLOPT_URL, $url); curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1); curl_setopt($ch, CURLOPT_PROXY, &amp;quot;http://proxy.</description>
@@ -106,10 +124,10 @@ function getUrl($url) { $ch = curl_init(); $timeout = 5; // set to zero for no t
     
     <item>
       <title>Mac&#39;te img&#39;yi iso formatına çevirmek</title>
-      <link>https://phpanaliz.com/post/img-to-iso-mac/</link>
-      <pubDate>Fri, 22 Sep 2017 23:16:45 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/img-to-iso-mac/</link>
+      <pubDate>Fri, 22 Sep 2017 23:16:45 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/img-to-iso-mac/</guid>
+      <guid>https://phpanaliz.com/yazi/img-to-iso-mac/</guid>
       <description>MacOS kullanırken bazı durumlarda acil terminal araçlarına ihtiyaç olabiliyor. Ben sanallaştırma yaparken, indirdiğim img dosyasını acilen iso&amp;rsquo;ya çevirme ihtiyacı hissettim, dahili olan araçlarla yaptığımda paket hataları vb. ile karşılaştım, araştırdığımda ise kullananların memnun kaldığı bir araç ile karşılaştım; CCD2iso.
 Bu aracı img dosyamı iso yapmak için kullandım ve, kesinlikle başarılı ve bir o kadar da hızlı.
 Hemen ccd2iso&amp;rsquo;nun kurulumuna geçelim,
@@ -118,10 +136,10 @@ terminali açıyoruz. Eğer brew sizlerde kurulu ise, direk ikinci komuta geçeb
     
     <item>
       <title>Benchmark Testleri</title>
-      <link>https://phpanaliz.com/post/benchmark-testleri/</link>
-      <pubDate>Thu, 21 Sep 2017 01:24:43 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/benchmark-testleri/</link>
+      <pubDate>Thu, 21 Sep 2017 01:24:43 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/benchmark-testleri/</guid>
+      <guid>https://phpanaliz.com/yazi/benchmark-testleri/</guid>
       <description>Bu yazıda PHP&amp;rsquo;i şu dili böyle döver falan gibi saçma şeyler olmayacak, her yazılım dilinin başka bir dile üstün olduğu alanlar mevcuttur ki 2017 yılında Cache sistemlerinin olması nedeniyle doğru yapılan işlerde dillerin pek önemi kalmıyor. Biz benchmark testlerine bakıp PHP&amp;rsquo;nin performans olarak ileride olduğu noktaları inceleyelim,
 İlk olarak, Script dilleri ile ilgili karşılaştırmasına bakalım
 Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakalım,
@@ -130,10 +148,10 @@ Mandelbrot fractal&amp;lsquo;ı kaç saniye de render&amp;rsquo;lıyorlar bakal�
     
     <item>
       <title>Google Plus Comments Ekleme</title>
-      <link>https://phpanaliz.com/post/google-plus-comments-ekleme/</link>
-      <pubDate>Sat, 16 Sep 2017 20:47:03 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/google-plus-comments-ekleme/</link>
+      <pubDate>Sat, 16 Sep 2017 20:47:03 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/google-plus-comments-ekleme/</guid>
+      <guid>https://phpanaliz.com/yazi/google-plus-comments-ekleme/</guid>
       <description>Web sitenize Google plus&amp;rsquo;a ait yorum eklentisini kurmak istiyorsunuz. Bencede haklısınız. Facebook Comments biraz hantal ve bazı firmalar facebook&amp;rsquo;a engel koyduğunda kişiler sitenizin açılışındaki yavaşlığın sitenizden kaynaklandığını düşünüşüp sitenizle ilgili olumsuz izlenimlere kapılacaklar.
 Bu nedenle ben siteme Google Plus Comments eklemeyi tercih ediyorum. Nasıl mı ?
 &amp;lt;script src=&amp;quot;https://apis.google.com/js/plusone.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;div id=&amp;quot;comments&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; gapi.comments.render(&#39;comments&#39;, { href: window.location, width: &#39;700&#39;, first_party_property: &#39;BLOGGER&#39;, view_type: &#39;FILTERED_POSTMOD&#39; }); &amp;lt;/script&amp;gt;  Bu kadar da kolay :)</description>
@@ -141,10 +159,10 @@ Bu nedenle ben siteme Google Plus Comments eklemeyi tercih ediyorum. Nasıl mı 
     
     <item>
       <title>Web Sayfasına Splash Ekleme</title>
-      <link>https://phpanaliz.com/post/web-sayfasina-splash-screen-ekleme/</link>
-      <pubDate>Wed, 13 Sep 2017 23:39:06 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/web-sayfasina-splash-screen-ekleme/</link>
+      <pubDate>Wed, 13 Sep 2017 23:39:06 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/web-sayfasina-splash-screen-ekleme/</guid>
+      <guid>https://phpanaliz.com/yazi/web-sayfasina-splash-screen-ekleme/</guid>
       <description>Chrome&amp;rsquo;un 2 yıl önce getirdiği bir özellik, yerel web master sitelerinde bu özelliği görmedim. Google&amp;rsquo;ın Chrome paylaşımlarını incelerken dikkatimi çekti. Chrome kullanan kişiler web sitenizde splash screen görüp sitenize öyle geliyor, sanki uygulamaymış gibi.
 Desktop&amp;rsquo;ta manası olmadığı için bu size mobilde bir kalite katıyor. Müşterilerinizin sitesine değil de kendi sitenize kalite katmayı tercih edebilirsiniz.
 Gelelim Web sitemize splash ekranı eklemeye,
@@ -153,10 +171,10 @@ Gelelim Web sitemize splash ekranı eklemeye,
     
     <item>
       <title>Lighthouse; Google&#39;dan Bizlere Hediye</title>
-      <link>https://phpanaliz.com/post/lighthouse-google-dan-bizlere-hediye/</link>
-      <pubDate>Wed, 13 Sep 2017 23:28:36 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/lighthouse-google-dan-bizlere-hediye/</link>
+      <pubDate>Wed, 13 Sep 2017 23:28:36 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/lighthouse-google-dan-bizlere-hediye/</guid>
+      <guid>https://phpanaliz.com/yazi/lighthouse-google-dan-bizlere-hediye/</guid>
       <description>Github&amp;rsquo;da gözüme çarpan projelerden, lighthouse. Google&amp;rsquo;ın Chrome için geliştirdiği web sitesi analizi yapan mükemmel ve yenilikçi bir eklenti.
 Müşterilerinizin sitelerini analiz edip rapor sunuyorsanız, para verdiğiniz uygulamaları unutun. Google&amp;rsquo;ın gözünden bir sitenin performansını analiz ederek, SEO&amp;rsquo;da avantaj sağlıyıp sağlamadığını anlayabilirsiniz.
 Örneğin bu site için şu şekilde bir rapor aldım,
@@ -166,23 +184,149 @@ Bunlarla birlikte dilerseniz, html çıktı alıp rapor olarak müşterinize ile
     
     <item>
       <title>Yazılımcı İçin İşletim Sistemi</title>
-      <link>https://phpanaliz.com/post/yazilimci-icin-isletim-sistemi/</link>
-      <pubDate>Wed, 13 Sep 2017 22:39:29 &#43;03</pubDate>
+      <link>https://phpanaliz.com/yazi/yazilimci-icin-isletim-sistemi/</link>
+      <pubDate>Wed, 13 Sep 2017 22:39:29 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/post/yazilimci-icin-isletim-sistemi/</guid>
+      <guid>https://phpanaliz.com/yazi/yazilimci-icin-isletim-sistemi/</guid>
       <description>Cümleye direk Ben MacOS kullanıyorum diye başlıyorum. Bunun sizler için hiç bir önemi olmaması gerekiyor. Çünkü ofiste kullandığım geliştirme cihazım başarılı bir Windows 10 x64
 Hangi işletim sistemini kullanmanız gerektiği ile ilgili kafanızda soru işaretleri var ise, kendinizi gerçek anlamda kod yazmaktan alıkoymak için bahane arıyorsunuz demektir. Bende aynı şekilde, Windows&amp;rsquo;dan Linux&amp;rsquo;a geçip durdum, Linux içerisinde Zentos&amp;rsquo;tan Ubuntu&amp;rsquo;ya CoreOS, Suse ne varsa denedim sonunda zaman kaybetmekten başka bir şeye sahip olamadım.</description>
     </item>
     
     <item>
       <title>Arama</title>
-      <link>https://phpanaliz.com/page/search/</link>
-      <pubDate>Wed, 30 Aug 2017 14:21:07 &#43;03</pubDate>
+      <link>https://phpanaliz.com/sayfa/search/</link>
+      <pubDate>Wed, 30 Aug 2017 14:21:07 +0300</pubDate>
       
-      <guid>https://phpanaliz.com/page/search/</guid>
+      <guid>https://phpanaliz.com/sayfa/search/</guid>
       <description>function getParameterByName(name, url) { if (!url) url = window.location.href; name = name.replace(/[\[\]]/g, &#34;\\$&amp;&#34;); var regex = new RegExp(&#34;[?&amp;]&#34; + name + &#34;(=([^&amp;#]*)|&amp;|#|$)&#34;), results = regex.exec(url); if (!results) return null; if (!results[2]) return &#39;&#39;; return decodeURIComponent(results[2].replace(/\+/g, &#34; &#34;)); } var sonucSayac = 0; var string = getParameterByName(&#34;kelime&#34;); if(string !== null){ var result = new Array(); var feed = &#34;/index.xml&#34;; $.ajax(feed, { accepts:{ xml:&#34;application/rss+xml&#34; }, dataType:&#34;xml&#34;, success:function(data) { $(data).find(&#34;item&#34;).each(function () { var el = $(this); if(el.</description>
+    </item>
+    
+    <item>
+      <title>Jquery ile Hugo Search Ekleme</title>
+      <link>https://phpanaliz.com/yazi/jquery-ile-firebase-siteye-search-ekleme/</link>
+      <pubDate>Tue, 29 Aug 2017 23:59:56 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/jquery-ile-firebase-siteye-search-ekleme/</guid>
+      <description>Bildiğiniz gibi Google bize Firebase Hosting hizmetini verirken, sunucu taraflı bir script çalıştıramayağımızı da söylüyor. Neden ? Çünkü 2017 yılındayız, bu tür şeyler için API ve servis kodlanması gerekiyor. Ancak bizim micro işlerde bu kadar abartılı bir kullanıma ihtiyacımız yok.
+Ben bu sitede Hugo kullanıyorum, bu da verilerin kendi bilgisayarımda derlenip statik olarak Firebase&amp;rsquo;e yüklediğim anlamına geliyor. Peki Hugo ile yapılmış site de site içi aramayı nasıl eklerim ?
+Basit, hugo bana zaten xml olarak site içeriklerimi veriyor, çünkü Google Search Console&amp;rsquo;a içeriklerimin gönderilmesi gerek.</description>
+    </item>
+    
+    <item>
+      <title>Laravel ile 2 Dakika Admin Paneli Kurmak</title>
+      <link>https://phpanaliz.com/yazi/laravel-ile-2-dakikada-admin-paneli-kurmak/</link>
+      <pubDate>Tue, 29 Aug 2017 22:27:45 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/laravel-ile-2-dakikada-admin-paneli-kurmak/</guid>
+      <description>Bu kurulumu yapmanın ne kadar sürdüğüne baktığımda 1.56 dakika olduğunu gördüm. Müşteriniz eğer internet üzerinden satın aldığınız arayüzlerden birini beğenirse bir kaç saatte komple sağlam bir CMS&amp;rsquo;e sahip siteyi sadece giydirme yaparak yayına alabilirsiniz.
+Voyager&amp;rsquo;ın admin panelinden dinamik olarak Model ve Controller oluşturulabiliyor, bu sayede yetenekleri sınırsız. Kullanıcı yetkilendirme işlemi bile panelden rahatlıkla yapılabiliyor ve sizin hiç bir şey ayarlamanıza gerek kalmıyor.
+İlk olarak sinir olacağınız kadar kolay bir kullanımı mevcut, bilgisayarınız laravel kullanımına uygun değilse, hızlıca kurulumlara başlayalım, İlk olarak, XAMPP, WAMP veya MAMP kurmalısınız, benim tavsiyem kesinlikle MAMP.</description>
+    </item>
+    
+    <item>
+      <title>Seo Hakkında Bilmedikleriniz</title>
+      <link>https://phpanaliz.com/yazi/seo-hakkinda-bilmedikleriniz/</link>
+      <pubDate>Tue, 29 Aug 2017 18:41:01 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/seo-hakkinda-bilmedikleriniz/</guid>
+      <description>İlk olarak şununla başlıyorum, SEO uzmanlığı bir meslek vb değildir. Bu işi dünya da bile en iyi yaptığını iddia eden firmalar sizlerin üç ay sonra Google&amp;rsquo;ın indexlerinizi silmenize yol açacaktır.
+SEO için Google&amp;rsquo;ı telefonla bile aradık, adamlar diyor ki, arama motorunun nasıl çalıştığını kimseye söylemiyoruz. Bu nedenle Google şöyle çalışır böyle çalışır gibi şeylere pek kulak asmamak gerekiyor. Dikkat etmemiz gereken tek şey Google Web Master bloglarında paylaşılanlar, bunları madde madde inceleyelim;  Sitedeki bilgilerin doğru ve güvenilir olması  İçeriklerinizin kaynağının saçma sapan yerlere dayanmasından ziyade gerçek ve somut kaynaklara dayanması, Google içeriğinizi anladığında &#34;</description>
+    </item>
+    
+    <item>
+      <title>Vhost Script Kullanımı</title>
+      <link>https://phpanaliz.com/yazi/vhosts-script-kullanimi/</link>
+      <pubDate>Mon, 28 Aug 2017 23:14:26 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/vhosts-script-kullanimi/</guid>
+      <description>MAMP, XAMPP veya WAMP ne kullandığınız aslında pek önemli değil, Apache üzerinde vhost kullanmak istiyorsanız, bu işi biraz pratikleştirmeniz gerekiyor. Ben kendi bilgisayarımda Komut Satırını kullanmayı sevdiğim için birazdan belirteceğim scripti şu şekilde kullanıyorum
+php vhosts.php DİZİN localDomain.dev  Bu parametreleri alarak tanımladığım vhosts dosyasında ve işletim sistemimdeki hosts dosyasındaki düzenlemeyi yaparak beni tekrar tekrar dosyalara girmekten kurtarıyor.
+Şimdi yerel cihazda projeye özel yerel domain kullanmak için PHP kodumuzu inceleyelim</description>
+    </item>
+    
+    <item>
+      <title>Hakkımda</title>
+      <link>https://phpanaliz.com/sayfa/hakkimda/</link>
+      <pubDate>Mon, 28 Aug 2017 23:06:59 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/sayfa/hakkimda/</guid>
+      <description>Merhaba, Ben Uğur KAZDAL, 1ki3 Bilgi Teknolojileri firmasında Teknolojiden Sorumlu Yönetici olarak çalışmaktayım.
+Kişisel projelerimde genellikle PHP&amp;rsquo;yi kullanmaktayım. Ara ara kendi sitelerimde bu tür işlemleri paylaşmaktayım.
+Bu sayfada PHP ile ilgili kendi ihtiyaçlarımı karşılayan ve iş hayatımda kullandığım scriptleri ve örnekleri paylaşmayı planlamaktayım. Paylaşmamı istediğiniz bir yazı veya doğruluğunu tartışmak istediğiniz bir paylaşımım mevcut ise fikirlerinizi iletişim bağlantısından iletebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>İletişim</title>
+      <link>https://phpanaliz.com/sayfa/iletisim/</link>
+      <pubDate>Mon, 28 Aug 2017 23:06:59 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/sayfa/iletisim/</guid>
+      <description>PHP ile ilgili merak ettiğiniz soruları çekinmeden sorabilirsiniz.
+E-postayı görmek için tıklayın</description>
+    </item>
+    
+    <item>
+      <title>Firebase Hosting Üzerine Blog Kurmak</title>
+      <link>https://phpanaliz.com/yazi/firebase-hosting-uzerine-blog-kurmak/</link>
+      <pubDate>Tue, 11 Jul 2017 18:50:23 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/firebase-hosting-uzerine-blog-kurmak/</guid>
+      <description>Firebase Hosting üzerine blog kurmak, evet, biraz dolaylı olacak ancak, hugo (Go ile yazılmış bir sistem) ile bunu maksimum performans ve güvenlikle firebase&amp;rsquo;e uygun şekilde blog kurabiliyoruz.
+Firebase hosting hesabınıza Hugo ile blog kurmak istiyorsanız ,
+ </description>
+    </item>
+    
+    <item>
+      <title>Facebook Comments Ekleme</title>
+      <link>https://phpanaliz.com/yazi/facebook-comment-ekleme/</link>
+      <pubDate>Tue, 11 Jul 2017 07:59:41 +0300</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/facebook-comment-ekleme/</guid>
+      <description>Hugo ile Firebase hosting üzerine kurduğumuz sitemize Facebook Comments eklemek istiyorsunuz, ancak pluginler vs uğraşmak yerine bu işi basit şekilde çözmeye niyetlisiniz, bu basit olan şey aslında 30 saniye sürerken 13 dakika da anca anlatabildim :) Buyrun
+ </description>
+    </item>
+    
+    <item>
+      <title>Hugo Datetime Degistirme</title>
+      <link>https://phpanaliz.com/yazi/hugo-datetime-degistirme/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/hugo-datetime-degistirme/</guid>
+      <description>Bilmiyorsanız hemen söyliyeyim, Hugo, Go Lang ile geliştirilmiş bir tool, web sitesinin gohugo olması buradan geliyor. Hugo sistemini kurduğunuzda tema da gözünüze batan ilk şeylerden biri, tarihlerin amerikan stili olması, çünkü alışık değiliz !
+Tema üzerinde .Site.Params.DateForm gibi bir tanımlama var ise, config dosyanızdan, yok ise doğrudan oraya da yazabilirsiniz. İlk olarak Config dosyasına DateForm diye bir değişken tanımlayalım,
+ baseURL = &#34;https://mobilsihirbazi.com/&#34; languageCode = &#34;tr-TR&#34; title = &#34;Mobil Sihirbazı - ios ve android&#34;</description>
+    </item>
+    
+    <item>
+      <title>Hugo Google Analytics</title>
+      <link>https://phpanaliz.com/yazi/hugo-google-analyitcs/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/hugo-google-analyitcs/</guid>
+      <description>Google Analytics kodlarını temanınızın ayarlarında bulunuyorsa rahatlıkla ekleyebilirsiniz, eğer temanızda .Site.Params.GoogleAnalyticsUserID bulunmuyorsa kendiniz ekleyebilirsiniz.
+Aşağıdaki videoda Google Analytics kodlarını Hugo Config dosyasına nasıl ekleyebileceğinizi ekleyebilirsiniz.
+ </description>
+    </item>
+    
+    <item>
+      <title>Firebase Domain Ekleme</title>
+      <link>https://phpanaliz.com/yazi/firebase-domain-ekleme/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/firebase-domain-ekleme/</guid>
+      <description>Firebase&amp;rsquo;in bizlere sunduğu ücretsiz hizmetler arasında Firebase Hosting&amp;rsquo;de bulunuyor. Google&amp;rsquo;ın bu ücretsiz hosting hizmetinden yararlanmak çok kolay iken, unutmamamız gereken bir şey bunuyor. Firebase Hosting sadece dosyaları barındırır ve tarayıcıya gönderir. Kısaca Wordpress vb. gibi sistemler kurulamaz. Biz Firebase&amp;rsquo;e blog kurma işlemine bu adreste inceliyor olacağız. Firebase Hosting üzerine nasıl domain eklenir görmek istiyorsanız, videoyu izleyebilirsiniz. 
+ </description>
+    </item>
+    
+    <item>
+      <title>Firebase Hosting Kullanımı</title>
+      <link>https://phpanaliz.com/yazi/firebase-hosting-kullanimi/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://phpanaliz.com/yazi/firebase-hosting-kullanimi/</guid>
+      <description>Firebase&amp;rsquo;in sanırım en sevdiğim özelliği Hosting hizmeti. Firebase Hosting kullanırken hem ücretsiz SSL hem de en hızlı sunucu performansını alırken, bir de maksimum güvenlik ile işlerinize daha fazla vakit ayırabiliyorsunuz.
+Firebase&amp;rsquo;in Hosting hizmeti ile ilgili kullanımını ve detaylarını anlattığım videoyu izleyebilirsiniz.</description>
     </item>
     
   </channel>
 </rss>
-

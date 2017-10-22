@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Site Yönetimi on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Site Yönetimi on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/konular/site-y%C3%B6netimi/</link>
+    <description>Recent content in Site Yönetimi on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/konular/site-y%C3%B6netimi/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sun, 09 Jul 2017 00:00:00 UTC</updated>
     
     <item>
       <title>Hugo Google Analytics</title>
       <link>https://phpanaliz.com/post/hugo-google-analyitcs/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/post/hugo-google-analyitcs/</guid>
       <description>Google Analytics kodlarını temanınızın ayarlarında bulunuyorsa rahatlıkla ekleyebilirsiniz, eğer temanızda .Site.Params.GoogleAnalyticsUserID bulunmuyorsa kendiniz ekleyebilirsiniz.
@@ -23,7 +25,7 @@ Aşağıdaki videoda Google Analytics kodlarını Hugo Config dosyasına nasıl 
     <item>
       <title>Firebase Domain Ekleme</title>
       <link>https://phpanaliz.com/post/firebase-domain-ekleme/</link>
-      <pubDate>Sat, 08 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/post/firebase-domain-ekleme/</guid>
       <description>Firebase&amp;rsquo;in bizlere sunduğu ücretsiz hizmetler arasında Firebase Hosting&amp;rsquo;de bulunuyor. Google&amp;rsquo;ın bu ücretsiz hosting hizmetinden yararlanmak çok kolay iken, unutmamamız gereken bir şey bunuyor. Firebase Hosting sadece dosyaları barındırır ve tarayıcıya gönderir. Kısaca Wordpress vb. gibi sistemler kurulamaz. Biz Firebase&amp;rsquo;e blog kurma işlemine bu adreste inceliyor olacağız. Firebase Hosting üzerine nasıl domain eklenir görmek istiyorsanız, videoyu izleyebilirsiniz. 
@@ -33,7 +35,7 @@ Aşağıdaki videoda Google Analytics kodlarını Hugo Config dosyasına nasıl 
     <item>
       <title>Firebase Hosting Kullanımı</title>
       <link>https://phpanaliz.com/post/firebase-hosting-kullanimi/</link>
-      <pubDate>Sat, 08 Jul 2017 00:00:00 UTC</pubDate>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://phpanaliz.com/post/firebase-hosting-kullanimi/</guid>
       <description>Firebase&amp;rsquo;in sanırım en sevdiğim özelliği Hosting hizmeti. Firebase Hosting kullanırken hem ücretsiz SSL hem de en hızlı sunucu performansını alırken, bir de maksimum güvenlik ile işlerinize daha fazla vakit ayırabiliyorsunuz.
@@ -42,4 +44,3 @@ Firebase&amp;rsquo;in Hosting hizmeti ile ilgili kullanımını ve detaylarını
     
   </channel>
 </rss>
-

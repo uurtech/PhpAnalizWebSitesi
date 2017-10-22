@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Blog on PHP Analiz - Uğur KAZDAL </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Blog on PHP Analiz - Uğur KAZDAL</title>
     <link>https://phpanaliz.com/tags/blog/</link>
+    <description>Recent content in Blog on PHP Analiz - Uğur KAZDAL</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <lastBuildDate>Tue, 11 Jul 2017 18:50:23 +0300</lastBuildDate>
     
+	<atom:link href="https://phpanaliz.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 11 Jul 2017 18:50:23 &#43;03</updated>
     
     <item>
       <title>Firebase Hosting Üzerine Blog Kurmak</title>
       <link>https://phpanaliz.com/post/firebase-hosting-uzerine-blog-kurmak/</link>
-      <pubDate>Tue, 11 Jul 2017 18:50:23 &#43;03</pubDate>
+      <pubDate>Tue, 11 Jul 2017 18:50:23 +0300</pubDate>
       
       <guid>https://phpanaliz.com/post/firebase-hosting-uzerine-blog-kurmak/</guid>
       <description>Firebase Hosting üzerine blog kurmak, evet, biraz dolaylı olacak ancak, hugo (Go ile yazılmış bir sistem) ile bunu maksimum performans ve güvenlikle firebase&amp;rsquo;e uygun şekilde blog kurabiliyoruz.
@@ -22,4 +24,3 @@ Firebase hosting hesabınıza Hugo ile blog kurmak istiyorsanız ,
     
   </channel>
 </rss>
-
